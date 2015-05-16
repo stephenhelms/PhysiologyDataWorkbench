@@ -1,0 +1,29 @@
+#MATLAB Preferences
+#Wed Apr 04 14:44:51 GMT 2007
+RLHiddenB2_WB_2006b_1=I16184
+RLOrderB2_WB_2006b_1=S0:1:2:3:
+RLPrevInitB2_WB_2006b_1=Btrue
+RLPrevInitB2_FigurePalette2=Btrue
+FileBrowserFiveColumnWidths=S[201 100 75 150 400]
+RLHiddenB2_FigurePalette2=I16372
+TextPrintingPrinterName=SXerox Phaser 6250N PS
+MatlabExitConfirm=Bfalse
+RLPrevInitB2_null=Btrue
+RLWidthB2_WB_2006b_1_3=I50
+RLWidthB2_WB_2006b_1_2=I50
+RLWidthB2_WB_2006b_1_1=I130
+RLWidthB2_WB_2006b_1_0=I235
+InspectorWindowBounds=R0 0 300 550
+EditorMRU9=S
+EditorMRU8=S
+EditorMRU7=S
+MatlabErrorLogReportTime=J4694544274231948406
+EditorMRU6=S
+ArrayEditor_CS_Format=I0
+EditorMRU5=S
+EditorMRU4=SC:\\Users\\Stephen\\Documents\\Rama lab\\MATLAB\\pumir model\\DetectBumps2.m
+EditorMRU3=SC:\\Users\\Stephen\\Documents\\Rama lab\\MATLAB\\pumir model\\ExtractBumpStats_ssca.m
+EditorMRU2=SC:\\Users\\Stephen\\Documents\\Rama lab\\MATLAB\\GetCaConcentrations.m
+CommandWindowClearConfirmation=Btrue
+EditorMRU1=SC:\\Users\\Stephen\\Documents\\Rama lab\\MATLAB\\ProcessCalciumData.m
+FileBrowserFiveColumnOrder=S[0 1 2 3 4]

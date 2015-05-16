@@ -1,0 +1,309 @@
+namespace RRLab.PhysiologyWorkbench.Daq
+{
+    partial class LaserFlashSwitchConfigurationControl
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param genotype="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.SwitchDurationTextBox = new System.Windows.Forms.TextBox();
+            this.ProtocolBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label4 = new System.Windows.Forms.Label();
+            this.switchDelayTextBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.FilterWheelChooserControl = new RRLab.PhysiologyWorkbench.GUI.DeviceChooserControl();
+            this.ProgramBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.PostFlashCollectionTimeTextBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.PreFlashCollectionTimeTextBox = new System.Windows.Forms.TextBox();
+            this.LaserChooser = new RRLab.PhysiologyWorkbench.GUI.DeviceChooserControl();
+            this.CompactFilterWheelConfigurationControl = new RRLab.PhysiologyWorkbench.GUI.CompactFilterWheelConfigurationControl();
+            this.SwitchChooserControl = new RRLab.PhysiologyWorkbench.GUI.DeviceChooserControl();
+            this.PresetsComboBox = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ProtocolBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ProgramBindingSource)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.AutoScroll = true;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.31559F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.68441F));
+            this.tableLayoutPanel1.Controls.Add(this.SwitchDurationTextBox, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 7);
+            this.tableLayoutPanel1.Controls.Add(this.switchDelayTextBox, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.FilterWheelChooserControl, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.PostFlashCollectionTimeTextBox, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.PreFlashCollectionTimeTextBox, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.LaserChooser, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.CompactFilterWheelConfigurationControl, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.SwitchChooserControl, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.PresetsComboBox, 1, 8);
+            this.tableLayoutPanel1.Controls.Add(this.label5, 0, 8);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 10;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(266, 289);
+            this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // SwitchDurationTextBox
+            // 
+            this.SwitchDurationTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.ProtocolBindingSource, "SwitchDuration", true));
+            this.SwitchDurationTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SwitchDurationTextBox.Location = new System.Drawing.Point(160, 205);
+            this.SwitchDurationTextBox.Name = "SwitchDurationTextBox";
+            this.SwitchDurationTextBox.Size = new System.Drawing.Size(103, 20);
+            this.SwitchDurationTextBox.TabIndex = 15;
+            // 
+            // ProtocolBindingSource
+            // 
+            this.ProtocolBindingSource.DataSource = typeof(RRLab.PhysiologyWorkbench.Daq.LaserFlashWithSwitchProtocol);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Location = new System.Drawing.Point(3, 202);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(151, 26);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Switch Duration (ms)";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // switchDelayTextBox
+            // 
+            this.switchDelayTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.ProtocolBindingSource, "SwitchDelayTime", true));
+            this.switchDelayTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.switchDelayTextBox.Location = new System.Drawing.Point(160, 179);
+            this.switchDelayTextBox.Name = "switchDelayTextBox";
+            this.switchDelayTextBox.Size = new System.Drawing.Size(103, 20);
+            this.switchDelayTextBox.TabIndex = 12;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Location = new System.Drawing.Point(3, 176);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(151, 26);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Switch Delay (ms)";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // FilterWheelChooserControl
+            // 
+            this.FilterWheelChooserControl.AutoSize = true;
+            this.FilterWheelChooserControl.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.FilterWheelChooserControl.ChoiceLabel = "Filter Wheel";
+            this.tableLayoutPanel1.SetColumnSpan(this.FilterWheelChooserControl, 2);
+            this.FilterWheelChooserControl.DataBindings.Add(new System.Windows.Forms.Binding("DeviceManager", this.ProgramBindingSource, "DeviceManager", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.FilterWheelChooserControl.DataBindings.Add(new System.Windows.Forms.Binding("SelectedDevice", this.ProtocolBindingSource, "FilterWheel", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.FilterWheelChooserControl.DeviceManager = null;
+            this.FilterWheelChooserControl.DeviceType = typeof(RRLab.PhysiologyWorkbench.Devices.FilterWheelDevice);
+            this.FilterWheelChooserControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FilterWheelChooserControl.Location = new System.Drawing.Point(3, 65);
+            this.FilterWheelChooserControl.MinimumSize = new System.Drawing.Size(200, 25);
+            this.FilterWheelChooserControl.Name = "FilterWheelChooserControl";
+            this.FilterWheelChooserControl.SelectedDevice = null;
+            this.FilterWheelChooserControl.Size = new System.Drawing.Size(260, 25);
+            this.FilterWheelChooserControl.TabIndex = 9;
+            // 
+            // ProgramBindingSource
+            // 
+            this.ProgramBindingSource.DataSource = typeof(RRLab.PhysiologyWorkbench.PhysiologyWorkbenchProgram);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Location = new System.Drawing.Point(3, 150);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(151, 26);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "PostFlash (ms)";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // PostFlashCollectionTimeTextBox
+            // 
+            this.PostFlashCollectionTimeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.ProtocolBindingSource, "PostFlashCollectionTime", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, null, "N0"));
+            this.PostFlashCollectionTimeTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PostFlashCollectionTimeTextBox.Location = new System.Drawing.Point(160, 153);
+            this.PostFlashCollectionTimeTextBox.Name = "PostFlashCollectionTimeTextBox";
+            this.PostFlashCollectionTimeTextBox.Size = new System.Drawing.Size(103, 20);
+            this.PostFlashCollectionTimeTextBox.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Location = new System.Drawing.Point(3, 124);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(151, 26);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "PreFlash (ms)";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // PreFlashCollectionTimeTextBox
+            // 
+            this.PreFlashCollectionTimeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.ProtocolBindingSource, "PreFlashCollectionTime", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged, null, "N0"));
+            this.PreFlashCollectionTimeTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PreFlashCollectionTimeTextBox.Location = new System.Drawing.Point(160, 127);
+            this.PreFlashCollectionTimeTextBox.Name = "PreFlashCollectionTimeTextBox";
+            this.PreFlashCollectionTimeTextBox.Size = new System.Drawing.Size(103, 20);
+            this.PreFlashCollectionTimeTextBox.TabIndex = 2;
+            // 
+            // LaserChooser
+            // 
+            this.LaserChooser.AutoSize = true;
+            this.LaserChooser.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.LaserChooser.ChoiceLabel = "Laser";
+            this.tableLayoutPanel1.SetColumnSpan(this.LaserChooser, 2);
+            this.LaserChooser.DataBindings.Add(new System.Windows.Forms.Binding("DeviceManager", this.ProgramBindingSource, "DeviceManager", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.LaserChooser.DataBindings.Add(new System.Windows.Forms.Binding("SelectedDevice", this.ProtocolBindingSource, "Laser", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.LaserChooser.DeviceManager = null;
+            this.LaserChooser.DeviceType = typeof(RRLab.PhysiologyWorkbench.Devices.SpectraPhysicsNitrogenLaser);
+            this.LaserChooser.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LaserChooser.Location = new System.Drawing.Point(3, 34);
+            this.LaserChooser.MinimumSize = new System.Drawing.Size(200, 25);
+            this.LaserChooser.Name = "LaserChooser";
+            this.LaserChooser.SelectedDevice = null;
+            this.LaserChooser.Size = new System.Drawing.Size(260, 25);
+            this.LaserChooser.TabIndex = 7;
+            this.LaserChooser.SelectedDeviceChanged += new System.EventHandler(this.OnSelectedLaserChanged);
+            // 
+            // CompactFilterWheelConfigurationControl
+            // 
+            this.CompactFilterWheelConfigurationControl.AutoSize = true;
+            this.tableLayoutPanel1.SetColumnSpan(this.CompactFilterWheelConfigurationControl, 2);
+            this.CompactFilterWheelConfigurationControl.DataBindings.Add(new System.Windows.Forms.Binding("FilterWheel", this.ProtocolBindingSource, "FilterWheel", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.CompactFilterWheelConfigurationControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CompactFilterWheelConfigurationControl.FilterWheel = null;
+            this.CompactFilterWheelConfigurationControl.Location = new System.Drawing.Point(3, 96);
+            this.CompactFilterWheelConfigurationControl.MinimumSize = new System.Drawing.Size(0, 25);
+            this.CompactFilterWheelConfigurationControl.Name = "CompactFilterWheelConfigurationControl";
+            this.CompactFilterWheelConfigurationControl.Size = new System.Drawing.Size(260, 25);
+            this.CompactFilterWheelConfigurationControl.TabIndex = 10;
+            // 
+            // SwitchChooserControl
+            // 
+            this.SwitchChooserControl.AutoSize = true;
+            this.SwitchChooserControl.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.SwitchChooserControl.ChoiceLabel = "Switch:";
+            this.tableLayoutPanel1.SetColumnSpan(this.SwitchChooserControl, 2);
+            this.SwitchChooserControl.DataBindings.Add(new System.Windows.Forms.Binding("DeviceManager", this.ProgramBindingSource, "DeviceManager", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.SwitchChooserControl.DataBindings.Add(new System.Windows.Forms.Binding("SelectedDevice", this.ProtocolBindingSource, "Switch", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.SwitchChooserControl.DeviceManager = null;
+            this.SwitchChooserControl.DeviceType = typeof(RRLab.PhysiologyWorkbench.Devices.SwitchDevice);
+            this.SwitchChooserControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SwitchChooserControl.Location = new System.Drawing.Point(3, 3);
+            this.SwitchChooserControl.MinimumSize = new System.Drawing.Size(200, 25);
+            this.SwitchChooserControl.Name = "SwitchChooserControl";
+            this.SwitchChooserControl.SelectedDevice = null;
+            this.SwitchChooserControl.Size = new System.Drawing.Size(260, 25);
+            this.SwitchChooserControl.TabIndex = 13;
+            // 
+            // PresetsComboBox
+            // 
+            this.PresetsComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PresetsComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.PresetsComboBox.FormattingEnabled = true;
+            this.PresetsComboBox.Items.AddRange(new object[] {
+            "Switch On For 200 ms Before Flash",
+            "Switch On For 200 ms Before Flash Until End",
+            "Switch On For 200 ms After Flash"});
+            this.PresetsComboBox.Location = new System.Drawing.Point(160, 231);
+            this.PresetsComboBox.Name = "PresetsComboBox";
+            this.PresetsComboBox.Size = new System.Drawing.Size(103, 21);
+            this.PresetsComboBox.TabIndex = 16;
+            this.PresetsComboBox.SelectedIndexChanged += new System.EventHandler(this.OnSelectedPresetChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label5.Location = new System.Drawing.Point(3, 228);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(151, 27);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Presets:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // LaserFlashSwitchConfigurationControl
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Name = "LaserFlashSwitchConfigurationControl";
+            this.Size = new System.Drawing.Size(266, 289);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ProtocolBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ProgramBindingSource)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TextBox PostFlashCollectionTimeTextBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox PreFlashCollectionTimeTextBox;
+        private RRLab.PhysiologyWorkbench.GUI.DeviceChooserControl LaserChooser;
+        private RRLab.PhysiologyWorkbench.GUI.DeviceChooserControl FilterWheelChooserControl;
+        private RRLab.PhysiologyWorkbench.GUI.CompactFilterWheelConfigurationControl CompactFilterWheelConfigurationControl;
+        private System.Windows.Forms.BindingSource ProtocolBindingSource;
+        private System.Windows.Forms.BindingSource ProgramBindingSource;
+        private System.Windows.Forms.TextBox switchDelayTextBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox SwitchDurationTextBox;
+        private System.Windows.Forms.Label label4;
+        private RRLab.PhysiologyWorkbench.GUI.DeviceChooserControl SwitchChooserControl;
+        private System.Windows.Forms.ComboBox PresetsComboBox;
+        private System.Windows.Forms.Label label5;
+    }
+}

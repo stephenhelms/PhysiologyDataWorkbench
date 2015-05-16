@@ -1,0 +1,649 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BF2AB9D-653F-4956-B347-CA72A25EDC92}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RRLab.PhysiologyWorkbench</RootNamespace>
+    <AssemblyName>PhysiologyWorkbench</AssemblyName>
+    <ManifestCertificateThumbprint>0D0BC8B3FC5729E8D147E1170DB509EFA8BE810F</ManifestCertificateThumbprint>
+    <ManifestKeyFile>PhysiologyWorkbench_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <StartupObject>RRLab.PhysiologyWorkbench.PhysiologyWorkbenchProgram</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <ApplicationRevision>27</ApplicationRevision>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishUrl>F:\Physiology Workbench\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Physiology Workbench</ProductName>
+    <PublisherName>Ranganathan Lab</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationVersion>3.1.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=5.0.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\MySQL\MySQL Connector Net 5.0.2\Binaries\.NET 2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Common, Version=8.0.20.274, Culture=neutral, PublicKeyToken=4544464cdeaab541, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NationalInstruments.Common.Native, Version=8.1.20.165, Culture=neutral, PublicKeyToken=4544464cdeaab541, processorArchitecture=x86" />
+    <Reference Include="NationalInstruments.DAQmx, Version=8.3.20.13, Culture=neutral, PublicKeyToken=4544464cdeaab541, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="NationalInstruments.UI, Version=8.1.20.256, Culture=neutral, PublicKeyToken=4544464cdeaab541, processorArchitecture=x86" />
+    <Reference Include="NationalInstruments.UI.Styles3D, Version=8.1.20.256, Culture=neutral, PublicKeyToken=4544464cdeaab541, processorArchitecture=x86" />
+    <Reference Include="NationalInstruments.UI.WindowsForms, Version=8.1.20.256, Culture=neutral, PublicKeyToken=4544464cdeaab541, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Daq\PulsedLaserLightRecordingProtocolConfigPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Daq\PulsedLaserLightRecordingProtocolConfigPanel.Designer.cs">
+      <DependentUpon>PulsedLaserLightRecordingProtocolConfigPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daq\PulsedLaserLightRecordingProtocol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Daq\MultiLaserFlashConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Daq\MultiLaserFlashConfigurationControl.Designer.cs">
+      <DependentUpon>MultiLaserFlashConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daq\LaserFlashSwitchConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Daq\LaserFlashSwitchConfigurationControl.Designer.cs">
+      <DependentUpon>LaserFlashSwitchConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daq\LaserFlashWithSwitchProtocol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Daq\MultiFlashProtocol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Daq\TestPulseSettingsBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Daq\TestPulseSettingsBox.designer.cs">
+      <DependentUpon>TestPulseSettingsBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DeviceSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\FilterWheelDevice.cs" />
+    <Compile Include="Devices\FilterWheelDeviceConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Devices\FilterWheelDeviceConfigurationControl.Designer.cs">
+      <DependentUpon>FilterWheelDeviceConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\FilterWheelDeviceCompactControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Devices\FilterWheelDeviceCompactControl.Designer.cs">
+      <DependentUpon>FilterWheelDeviceCompactControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\FilterWheelDeviceManualControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Devices\FilterWheelDeviceManualControl.Designer.cs">
+      <DependentUpon>FilterWheelDeviceManualControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\PortNameChooser.cs" />
+    <Compile Include="Devices\SwitchDevice.cs" />
+    <Compile Include="Devices\SwitchDeviceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Devices\SwitchDeviceControl.Designer.cs">
+      <DependentUpon>SwitchDeviceControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\USBFilterWheelDevice.cs" />
+    <Compile Include="GUI\AbsoluteVHoldController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\AbsoluteVHoldController.designer.cs">
+      <DependentUpon>AbsoluteVHoldController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\Amplifier.cs">
+    </Compile>
+    <Compile Include="GUI\AmplifierAnalysisControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\AmplifierAnalysisControl.Designer.cs">
+      <DependentUpon>AmplifierAnalysisControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\BreakInTimerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\BreakInTimerControl.Designer.cs">
+      <DependentUpon>BreakInTimerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CellInfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\CellInfoControl.Designer.cs">
+      <DependentUpon>CellInfoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\CompactFilterWheelConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Devices\CompactFilterWheelConfigurationControl.Designer.cs">
+      <DependentUpon>CompactFilterWheelConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daq\DaqProtocol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataManager.Designer.cs">
+      <DependentUpon>DataManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\Device.cs">
+    </Compile>
+    <Compile Include="Devices\DeviceChooserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Devices\DeviceChooserControl.Designer.cs">
+      <DependentUpon>DeviceChooserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\DeviceConfigurationReflectorPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Devices\DeviceConfigurationReflectorPanel.designer.cs">
+      <DependentUpon>DeviceConfigurationReflectorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\DeviceManagerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DeviceManagerDialog.designer.cs">
+      <DependentUpon>DeviceManagerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DeviceManualControlDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DeviceManualControlDialog.Designer.cs">
+      <DependentUpon>DeviceManualControlDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daq\FluorescenceRecordingProtocol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Daq\FluorescenceRecordingProtocolConfigPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Daq\FluorescenceRecordingProtocolConfigPanel.Designer.cs">
+      <DependentUpon>FluorescenceRecordingProtocolConfigPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NIRecordingDataGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\NIRecordingDataGraphControl.Designer.cs">
+      <DependentUpon>NIRecordingDataGraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RecordingInfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\RecordingInfoControl.Designer.cs">
+      <DependentUpon>RecordingInfoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SaveInBathTestPulseDataButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SaveInBathTestPulseDataButton.Designer.cs">
+      <DependentUpon>SaveInBathTestPulseDataButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TestPulseSealResistanceTextMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\TestPulseSealResistanceTextMonitor.designer.cs">
+      <DependentUpon>TestPulseSealResistanceTextMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HotkeyManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\HotkeyManagerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\HotkeyManagerDialog.Designer.cs">
+      <DependentUpon>HotkeyManagerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ICustomDeviceConfigurationControlProvider.cs" />
+    <Compile Include="IDataManagerSource.cs" />
+    <Compile Include="IDataManagerUser.cs" />
+    <Compile Include="IDeviceManagerUser.cs" />
+    <Compile Include="GUI\InstallNewDeviceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\InstallNewDeviceDialog.designer.cs">
+      <DependentUpon>InstallNewDeviceDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\Laser.cs">
+    </Compile>
+    <Compile Include="Daq\LaserFlashConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Daq\LaserFlashConfigurationControl.Designer.cs">
+      <DependentUpon>LaserFlashConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daq\LaserFlashProtocol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\LaserManualControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\LaserManualControl.Designer.cs">
+      <DependentUpon>LaserManualControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SaveCellAttachedTestPulseData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SaveCellAttachedTestPulseData.Designer.cs">
+      <DependentUpon>SaveCellAttachedTestPulseData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SaveTestPulseDataButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SaveTestPulseDataButton.Designer.cs">
+      <DependentUpon>SaveTestPulseDataButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SaveWholeCellTestPulseDataButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SaveWholeCellTestPulseDataButton.Designer.cs">
+      <DependentUpon>SaveWholeCellTestPulseDataButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\StopwatchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\StopwatchControl.Designer.cs">
+      <DependentUpon>StopwatchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daq\OscilloscopeConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Daq\OscilloscopeConfigurationControl.Designer.cs">
+      <DependentUpon>OscilloscopeConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daq\OscilloscopeProtocol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Devices\Photodiode.cs">
+    </Compile>
+    <Compile Include="PhysiologyWorkbenchProgram.cs">
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Daq\PulsedLaserLightRecordingProtocolConfigPanel.resx">
+      <DependentUpon>PulsedLaserLightRecordingProtocolConfigPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daq\LaserFlashSwitchConfigurationControl.resx">
+      <DependentUpon>LaserFlashSwitchConfigurationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daq\MultiLaserFlashConfigurationControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MultiLaserFlashConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daq\TestPulseSettingsBox.resx">
+      <DependentUpon>TestPulseSettingsBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devices\FilterWheelDeviceConfigurationControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FilterWheelDeviceConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devices\FilterWheelDeviceCompactControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FilterWheelDeviceCompactControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devices\FilterWheelDeviceManualControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FilterWheelDeviceManualControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devices\SwitchDeviceControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SwitchDeviceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AbsoluteVHoldController.resx">
+      <DependentUpon>AbsoluteVHoldController.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AmplifierAnalysisControl.resx">
+      <DependentUpon>AmplifierAnalysisControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\BreakInTimerControl.resx">
+      <DependentUpon>BreakInTimerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CellInfoControl.resx">
+      <DependentUpon>CellInfoControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devices\CompactFilterWheelConfigurationControl.resx">
+      <DependentUpon>CompactFilterWheelConfigurationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devices\DeviceChooserControl.resx">
+      <DependentUpon>DeviceChooserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devices\DeviceConfigurationReflectorPanel.resx">
+      <DependentUpon>DeviceConfigurationReflectorPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DeviceManagerDialog.resx">
+      <DependentUpon>DeviceManagerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DeviceManualControlDialog.resx">
+      <DependentUpon>DeviceManualControlDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daq\FluorescenceRecordingProtocolConfigPanel.resx">
+      <DependentUpon>FluorescenceRecordingProtocolConfigPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\HotkeyManagerDialog.resx">
+      <DependentUpon>HotkeyManagerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\InstallNewDeviceDialog.resx">
+      <DependentUpon>InstallNewDeviceDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daq\LaserFlashConfigurationControl.resx">
+      <DependentUpon>LaserFlashConfigurationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LaserManualControl.resx">
+      <DependentUpon>LaserManualControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NIRecordingDataGraphControl.resx">
+      <DependentUpon>NIRecordingDataGraphControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RecordingInfoControl.resx">
+      <DependentUpon>RecordingInfoControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SaveCellAttachedTestPulseData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SaveCellAttachedTestPulseData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SaveInBathTestPulseDataButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SaveInBathTestPulseDataButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SaveTestPulseDataButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SaveTestPulseDataButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SaveWholeCellTestPulseDataButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SaveWholeCellTestPulseDataButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StopwatchControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StopwatchControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daq\OscilloscopeConfigurationControl.resx">
+      <DependentUpon>OscilloscopeConfigurationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TestPulseSealResistanceTextMonitor.resx">
+      <DependentUpon>TestPulseSealResistanceTextMonitor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProtocolExecutionControl.resx">
+      <DependentUpon>ProtocolExecutionControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProtocolPanel.resx">
+      <DependentUpon>ProtocolPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProtocolSidebarControl.resx">
+      <DependentUpon>ProtocolSidebarControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QuickNotes.resx">
+      <DependentUpon>QuickNotes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devices\ShutterControl.resx">
+      <DependentUpon>ShutterControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TestPulsePanel.resx">
+      <DependentUpon>TestPulsePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TestPulseSealResistanceTank.resx">
+      <DependentUpon>TestPulseSealResistanceTank.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TestPulseSidebar.resx">
+      <DependentUpon>TestPulseSidebar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <Content Include="DeviceManagerPersistence.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="DeviceSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DeviceSettings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="HotkeyManagerPersistence.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="PhysiologyWorkbench_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\CellInfoControl.datasource" />
+    <None Include="Properties\DataSources\MainWindow.datasource" />
+    <None Include="Properties\DataSources\PhysiologyWorkbenchProgram.datasource" />
+    <None Include="Properties\DataSources\RecordingInfoControl.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.Daq.DaqProtocol.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.Daq.LaserFlashProtocol.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.Daq.LaserFlashWithSwitchProtocol.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.Daq.LaserFluorescenceRecordingProtocol.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.Daq.MultiFlashProtocol.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.Daq.OscilloscopeProtocol.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.Daq.TestPulseProtocol.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.Data.PhysiologyDataSet.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.Devices.DeviceManager.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.GUI.ProtocolPanel.datasource" />
+    <None Include="Properties\DataSources\RRLab.PhysiologyWorkbench.GUI.TestPulsePanel.datasource" />
+    <None Include="Properties\DataSources\TestPulseSidebar.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GUI\ProtocolExecutionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ProtocolExecutionControl.Designer.cs">
+      <DependentUpon>ProtocolExecutionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProtocolPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ProtocolPanel.Designer.cs">
+      <DependentUpon>ProtocolPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProtocolSidebarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ProtocolSidebarControl.Designer.cs">
+      <DependentUpon>ProtocolSidebarControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QuickNotes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\QuickNotes.Designer.cs">
+      <DependentUpon>QuickNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\Shutter.cs">
+    </Compile>
+    <Compile Include="Devices\ShutterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Devices\ShutterControl.Designer.cs">
+      <DependentUpon>ShutterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TestPulsePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\TestPulsePanel.Designer.cs">
+      <DependentUpon>TestPulsePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daq\TestPulseProtocol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\TestPulseSealResistanceTank.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\TestPulseSealResistanceTank.designer.cs">
+      <DependentUpon>TestPulseSealResistanceTank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TestPulseSidebar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\TestPulseSidebar.designer.cs">
+      <DependentUpon>TestPulseSidebar.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PhysiologyDataGUI\PhysiologyData.GUI\PhysiologyData.GUI.csproj">
+      <Project>{46F4BC89-7C07-49DE-BAE4-61FF1C3D3169}</Project>
+      <Name>PhysiologyData.GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PhysiologyDataViewer3\PhysiologyDataConnectivity\PhysiologyDataConnectivity.csproj">
+      <Project>{DB6D2D28-A38F-430F-9C7F-8B7EA49A38A7}</Project>
+      <Name>PhysiologyDataConnectivity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhysiologyWorkbench.Data\PhysiologyWorkbench.Data.csproj">
+      <Project>{2F6CB226-0311-4613-BD8C-E39E87365D52}</Project>
+      <Name>PhysiologyWorkbench.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{6ECB6A3B-D7A4-46B6-B3DC-97504E3B0543}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

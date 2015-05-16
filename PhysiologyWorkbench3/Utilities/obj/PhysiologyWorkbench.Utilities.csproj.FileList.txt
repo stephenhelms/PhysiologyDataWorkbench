@@ -1,0 +1,10 @@
+bin\Release\PhysiologyWorkbench.Utilities.dll
+bin\Release\PhysiologyWorkbench.Utilities.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\PhysiologyWorkbench.Utilities.dll
+obj\Release\PhysiologyWorkbench.Utilities.pdb
+bin\Debug\PhysiologyWorkbench.Utilities.dll
+bin\Debug\PhysiologyWorkbench.Utilities.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PhysiologyWorkbench.Utilities.dll
+obj\Debug\PhysiologyWorkbench.Utilities.pdb

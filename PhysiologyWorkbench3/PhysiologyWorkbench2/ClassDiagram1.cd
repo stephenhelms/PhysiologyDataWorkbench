@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="9" />
+  <Class Name="RRLab.PhysiologyWorkbench.MySqlDataManagerDatabaseConnector" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MySqlDataManagerDatabaseConnector.cs</FileName>
+      <HashCode>SIgFoEgADFAAgMUECAAAIAZAABAiQAAKAAAAggQAqIA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" />
+  </Class>
+</ClassDiagram>

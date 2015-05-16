@@ -1,0 +1,4 @@
+\\psf\Home\Documents\Rama Lab\dotNET Code\PhysiologyDataViewer3\PhysiologyDataViewer3\bin\Debug\PhysiologyDataWorkshop.exe.config
+\\psf\Home\Documents\Rama Lab\dotNET Code\PhysiologyDataViewer3\PhysiologyDataViewer3\obj\Debug\PhysiologyDataWorkshop.csproj.ResolveComReference.cache
+\\psf\Home\Documents\Rama Lab\dotNET Code\PhysiologyDataViewer3\PhysiologyDataViewer3\obj\Debug\PhysiologyDataWorkshop.exe
+\\psf\Home\Documents\Rama Lab\dotNET Code\PhysiologyDataViewer3\PhysiologyDataViewer3\obj\Debug\PhysiologyDataWorkshop.pdb

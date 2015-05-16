@@ -1,0 +1,190 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RRLab.PhysiologyDataWorkshop.MainWindow.resources
+obj\Debug\RRLab.PhysiologyDataWorkshop.Properties.Resources.resources
+obj\Debug\RRLab.PhysiologyDataWorkshop.RecordingViewerPanel.resources
+obj\Debug\PhysiologyDataWorkshop.csproj.GenerateResource.Cache
+bin\Debug\PhysiologyDataWorkshop.exe
+bin\Debug\PhysiologyDataWorkshop.pdb
+bin\Debug\PhysiologyWorkbench.Data.dll
+bin\Debug\PhysiologyWorkbench.Data.pdb
+obj\Debug\PhysiologyDataWorkshop.exe
+obj\Debug\PhysiologyDataWorkshop.pdb
+bin\Debug\ZedGraph.dll
+bin\Debug\ZedGraph.pdb
+bin\Debug\ZedGraph.xml
+bin\Debug\de\ZedGraph.resources.dll
+bin\Debug\es\ZedGraph.resources.dll
+bin\Debug\fr\ZedGraph.resources.dll
+bin\Debug\it\ZedGraph.resources.dll
+bin\Debug\ja\ZedGraph.resources.dll
+bin\Debug\pt\ZedGraph.resources.dll
+bin\Debug\sv\ZedGraph.resources.dll
+bin\Debug\PhysiologyDataWorkshop.exe.config
+bin\Release\PhysiologyDataWorkshop.exe.config
+bin\Release\PhysiologyDataWorkshop.exe
+bin\Release\PhysiologyDataWorkshop.pdb
+bin\Release\PhysiologyWorkbench.Data.dll
+bin\Release\ZedGraph.dll
+bin\Release\ZedGraph.pdb
+bin\Release\ZedGraph.xml
+bin\Release\PhysiologyWorkbench.Data.pdb
+bin\Release\de\ZedGraph.resources.dll
+bin\Release\es\ZedGraph.resources.dll
+bin\Release\fr\ZedGraph.resources.dll
+bin\Release\it\ZedGraph.resources.dll
+bin\Release\ja\ZedGraph.resources.dll
+bin\Release\pt\ZedGraph.resources.dll
+bin\Release\sv\ZedGraph.resources.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\RRLab.PhysiologyDataWorkshop.MainWindow.resources
+obj\Release\RRLab.PhysiologyDataWorkshop.Properties.Resources.resources
+obj\Release\RRLab.PhysiologyDataWorkshop.RecordingViewerPanel.resources
+obj\Release\PhysiologyDataWorkshop.csproj.GenerateResource.Cache
+obj\Release\PhysiologyDataWorkshop.exe
+obj\Release\PhysiologyDataWorkshop.pdb
+bin\Debug\RRLab.Utilities.dll
+bin\Debug\RRLab.Utilities.pdb
+obj\Debug\RRLab.PhysiologyDataWorkshop.HomePanel.resources
+bin\Debug\PhysiologyDataConnectivity.dll
+bin\Debug\PhysiologyDataConnectivity.pdb
+bin\Debug\PhysiologyDataWorkshop.exe.manifest
+bin\Debug\PhysiologyDataWorkshop.application
+obj\Debug\PhysiologyDataWorkshop.exe.manifest
+obj\Debug\PhysiologyDataWorkshop.application
+bin\Debug\PhysiologyData.GUI.dll
+bin\Debug\PhysiologyData.GUI.pdb
+obj\Debug\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.MacroscopicBumpExperimentPanel.resources
+obj\Debug\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.AddNewRecordingDialog.resources
+bin\Debug\Interop.MLApp.dll
+obj\Debug\Interop.MLApp.dll
+obj\Debug\PhysiologyDataWorkshop.csproj.ResolveComReference.cache
+obj\Debug\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.MacroscopicBumpViewerControl.resources
+obj\Debug\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.CalciumImagingPanelControl.resources
+bin\Debug\CalciumImagingProcessor.dll
+bin\Debug\CalciumImagingProcessor.ctf
+obj\Debug\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.AddNewCalciumExperimentDialog.resources
+obj\Debug\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.CalciumExperimentViewerControl.resources
+bin\Release\PhysiologyDataWorkshop.exe.manifest
+bin\Release\PhysiologyDataWorkshop.application
+bin\Release\CalciumImagingProcessor.dll
+bin\Release\PhysiologyData.GUI.dll
+bin\Release\PhysiologyDataConnectivity.dll
+bin\Release\RRLab.Utilities.dll
+bin\Release\RRLab.Utilities.pdb
+bin\Release\PhysiologyDataConnectivity.pdb
+bin\Release\PhysiologyData.GUI.pdb
+bin\Release\CalciumImagingProcessor.ctf
+bin\Release\Interop.MLApp.dll
+obj\Release\Interop.MLApp.dll
+obj\Release\PhysiologyDataWorkshop.csproj.ResolveComReference.cache
+obj\Release\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.AddNewCalciumExperimentDialog.resources
+obj\Release\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.CalciumExperimentViewerControl.resources
+obj\Release\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.CalciumImagingPanelControl.resources
+obj\Release\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.AddNewRecordingDialog.resources
+obj\Release\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.MacroscopicBumpViewerControl.resources
+obj\Release\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.MacroscopicBumpExperimentPanel.resources
+obj\Release\RRLab.PhysiologyDataWorkshop.HomePanel.resources
+obj\Release\PhysiologyDataWorkshop.exe.manifest
+obj\Release\PhysiologyDataWorkshop.application
+bin\Debug\MacroscopicResponseFitter.dll
+bin\Debug\MySql.Data.dll
+bin\Debug\MacroscopicResponseFitter.ctf
+bin\Release\MacroscopicResponseFitter.dll
+bin\Release\MySql.Data.dll
+bin\Release\MacroscopicResponseFitter.ctf
+bin\x64\Core 2 Duo Release\PhysiologyDataWorkshop.exe.config
+bin\x64\Core 2 Duo Release\PhysiologyDataWorkshop.exe.manifest
+bin\x64\Core 2 Duo Release\PhysiologyDataWorkshop.application
+bin\x64\Core 2 Duo Release\PhysiologyDataWorkshop.exe
+bin\x64\Core 2 Duo Release\PhysiologyDataWorkshop.pdb
+bin\x64\Core 2 Duo Release\CalciumImagingProcessor.dll
+bin\x64\Core 2 Duo Release\MacroscopicResponseFitter.dll
+bin\x64\Core 2 Duo Release\MySql.Data.dll
+bin\x64\Core 2 Duo Release\PhysiologyData.GUI.dll
+bin\x64\Core 2 Duo Release\PhysiologyDataConnectivity.dll
+bin\x64\Core 2 Duo Release\PhysiologyWorkbench.Data.dll
+bin\x64\Core 2 Duo Release\RRLab.Utilities.dll
+bin\x64\Core 2 Duo Release\ZedGraph.dll
+bin\x64\Core 2 Duo Release\RRLab.Utilities.pdb
+bin\x64\Core 2 Duo Release\ZedGraph.pdb
+bin\x64\Core 2 Duo Release\ZedGraph.xml
+bin\x64\Core 2 Duo Release\PhysiologyDataConnectivity.pdb
+bin\x64\Core 2 Duo Release\PhysiologyData.GUI.pdb
+bin\x64\Core 2 Duo Release\PhysiologyWorkbench.Data.pdb
+bin\x64\Core 2 Duo Release\de\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\es\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\fr\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\it\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\ja\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\pt\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\sv\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\MacroscopicResponseFitter.ctf
+bin\x64\Core 2 Duo Release\CalciumImagingProcessor.ctf
+bin\x64\Core 2 Duo Release\Interop.MLApp.dll
+obj\x64\64-bit Release\ResolveAssemblyReference.cache
+obj\x64\64-bit Release\Interop.MLApp.dll
+obj\x64\64-bit Release\PhysiologyDataWorkshop.csproj.ResolveComReference.cache
+obj\x64\64-bit Release\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.AddNewCalciumExperimentDialog.resources
+obj\x64\64-bit Release\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.CalciumExperimentViewerControl.resources
+obj\x64\64-bit Release\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.CalciumImagingPanelControl.resources
+obj\x64\64-bit Release\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.AddNewRecordingDialog.resources
+obj\x64\64-bit Release\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.MacroscopicBumpViewerControl.resources
+obj\x64\64-bit Release\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.MacroscopicBumpExperimentPanel.resources
+obj\x64\64-bit Release\RRLab.PhysiologyDataWorkshop.HomePanel.resources
+obj\x64\64-bit Release\RRLab.PhysiologyDataWorkshop.MainWindow.resources
+obj\x64\64-bit Release\RRLab.PhysiologyDataWorkshop.Properties.Resources.resources
+obj\x64\64-bit Release\RRLab.PhysiologyDataWorkshop.RecordingViewerPanel.resources
+obj\x64\64-bit Release\PhysiologyDataWorkshop.csproj.GenerateResource.Cache
+obj\x64\64-bit Release\PhysiologyDataWorkshop.exe.manifest
+obj\x64\64-bit Release\PhysiologyDataWorkshop.application
+obj\x64\64-bit Release\PhysiologyDataWorkshop.exe
+obj\x64\64-bit Release\PhysiologyDataWorkshop.pdb
+bin\x64\Debug\PhysiologyDataWorkshop.exe.config
+bin\x64\Debug\PhysiologyDataWorkshop.exe.manifest
+bin\x64\Debug\PhysiologyDataWorkshop.application
+bin\x64\Debug\PhysiologyDataWorkshop.exe
+bin\x64\Debug\PhysiologyDataWorkshop.pdb
+bin\x64\Debug\CalciumImagingProcessor.dll
+bin\x64\Debug\MacroscopicResponseFitter.dll
+bin\x64\Debug\MySql.Data.dll
+bin\x64\Debug\PhysiologyData.GUI.dll
+bin\x64\Debug\PhysiologyDataConnectivity.dll
+bin\x64\Debug\PhysiologyWorkbench.Data.dll
+bin\x64\Debug\RRLab.Utilities.dll
+bin\x64\Debug\ZedGraph.dll
+bin\x64\Debug\RRLab.Utilities.pdb
+bin\x64\Debug\ZedGraph.pdb
+bin\x64\Debug\ZedGraph.xml
+bin\x64\Debug\PhysiologyDataConnectivity.pdb
+bin\x64\Debug\PhysiologyData.GUI.pdb
+bin\x64\Debug\PhysiologyWorkbench.Data.pdb
+bin\x64\Debug\de\ZedGraph.resources.dll
+bin\x64\Debug\es\ZedGraph.resources.dll
+bin\x64\Debug\fr\ZedGraph.resources.dll
+bin\x64\Debug\it\ZedGraph.resources.dll
+bin\x64\Debug\ja\ZedGraph.resources.dll
+bin\x64\Debug\pt\ZedGraph.resources.dll
+bin\x64\Debug\sv\ZedGraph.resources.dll
+bin\x64\Debug\MacroscopicResponseFitter.ctf
+bin\x64\Debug\CalciumImagingProcessor.ctf
+bin\x64\Debug\Interop.MLApp.dll
+obj\x64\Debug\ResolveAssemblyReference.cache
+obj\x64\Debug\Interop.MLApp.dll
+obj\x64\Debug\PhysiologyDataWorkshop.csproj.ResolveComReference.cache
+obj\x64\Debug\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.AddNewCalciumExperimentDialog.resources
+obj\x64\Debug\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.CalciumExperimentViewerControl.resources
+obj\x64\Debug\RRLab.PhysiologyDataWorkshop.Experiments.CalciumImaging.CalciumImagingPanelControl.resources
+obj\x64\Debug\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.AddNewRecordingDialog.resources
+obj\x64\Debug\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.MacroscopicBumpViewerControl.resources
+obj\x64\Debug\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.MacroscopicBumpExperimentPanel.resources
+obj\x64\Debug\RRLab.PhysiologyDataWorkshop.HomePanel.resources
+obj\x64\Debug\RRLab.PhysiologyDataWorkshop.MainWindow.resources
+obj\x64\Debug\RRLab.PhysiologyDataWorkshop.Properties.Resources.resources
+obj\x64\Debug\RRLab.PhysiologyDataWorkshop.RecordingViewerPanel.resources
+obj\x64\Debug\PhysiologyDataWorkshop.csproj.GenerateResource.Cache
+obj\x64\Debug\PhysiologyDataWorkshop.exe.manifest
+obj\x64\Debug\PhysiologyDataWorkshop.application
+obj\x64\Debug\PhysiologyDataWorkshop.exe
+obj\x64\Debug\PhysiologyDataWorkshop.pdb
+obj\Release\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.CalculateAverageResponseDialog.resources
+obj\Debug\RRLab.PhysiologyDataWorkshop.Experiments.MacroscopicBump.CalculateAverageResponseDialog.resources

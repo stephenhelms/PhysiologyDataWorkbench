@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MacroscopicRecordingsDataSet" targetNamespace="http://tempuri.org/MacroscopicRecordingsDataSet.xsd" xmlns:mstns="http://tempuri.org/MacroscopicRecordingsDataSet.xsd" xmlns="http://tempuri.org/MacroscopicRecordingsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PhysiologyDataConnectionString" IsAppSettingsProperty="True" Modifier="Assembly" Name="PhysiologyDataConnectionString (Settings)" ParameterPrefix="?" PropertyReference="ApplicationSettings.RRLab.PhysiologyDataWorkshop.Properties.Settings.GlobalReference.Default.PhysiologyDataConnectionString" Provider="MySql.Data.MySqlClient">
+          </Connection>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="physiology_dataConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="physiology_dataConnectionString (Settings)" ParameterPrefix="?" PropertyReference="ApplicationSettings.RRLab.PhysiologyDataWorkshop.Properties.Settings.GlobalReference.Default.physiology_dataConnectionString" Provider="MySql.Data.MySqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MacroscopicRecordingsTableAdapter" GeneratorDataComponentClassName="MacroscopicRecordingsTableAdapter" Name="MacroscopicRecordings" UserDataComponentName="MacroscopicRecordingsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="physiology_dataConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT        cells.CellID, expt_macro.RecordingID, genotypes.Genotype, expt_macro.AnalysisDate, recordings.Recorded, users.Name, recordings.Title, expt_macro.RelativeLogIntensity, 
+                         expt_macro.CalciumConcentration, expt_macro.Amplitude, expt_macro.TimeOfPeak, expt_macro.ChargeIntegral, expt_macro.LatencyTime, expt_macro.SlowActivationTime, expt_macro.FastActivationTime, 
+                         expt_macro.FastInactivationTime, expt_macro.SlowInactivationTime, cells.Description AS CellDescription, recordings.Description AS RecordingDescription, 
+                         recordings.HoldingPotential, cells.PipetteResistance, cells.SealResistance, cells.CellCapacitance, cells.SeriesResistance, cells.MembraneResistance, 
+                         cells.MembranePotential, cells.BreakInTime, timediff(cells.BreakInTime, recordings.Recorded) AS TimeSinceBreakIn, cells.RoughAppearanceRating, 
+                         cells.LengthAppearanceRating, cells.ShapeAppearanceRating, recordings.BathSolution, recordings.PipetteSolution, expt_macro.Comments
+FROM            expt_macro, cells, recordings, users, genotypes
+WHERE        (expt_macro.RecordingID = recordings.RecordingID) AND (recordings.CellID = cells.CellID) AND (cells.FlyStockID = genotypes.FlyStockID) AND 
+                         (cells.UserID = users.UserID)</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CellID" DataSetColumn="CellID" />
+              <Mapping SourceColumn="Genotype" DataSetColumn="Genotype" />
+              <Mapping SourceColumn="AnalysisDate" DataSetColumn="AnalysisDate" />
+              <Mapping SourceColumn="Recorded" DataSetColumn="Recorded" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Title" DataSetColumn="Title" />
+              <Mapping SourceColumn="RelativeLogIntensity" DataSetColumn="RelativeLogIntensity" />
+              <Mapping SourceColumn="CalciumConcentration" DataSetColumn="CalciumConcentration" />
+              <Mapping SourceColumn="Amplitude" DataSetColumn="Amplitude" />
+              <Mapping SourceColumn="ChargeIntegral" DataSetColumn="ChargeIntegral" />
+              <Mapping SourceColumn="SlowActivationTime" DataSetColumn="SlowActivationTime" />
+              <Mapping SourceColumn="FastActivationTime" DataSetColumn="FastActivationTime" />
+              <Mapping SourceColumn="FastInactivationTime" DataSetColumn="FastInactivationTime" />
+              <Mapping SourceColumn="SlowInactivationTime" DataSetColumn="SlowInactivationTime" />
+              <Mapping SourceColumn="CellDescription" DataSetColumn="CellDescription" />
+              <Mapping SourceColumn="RecordingDescription" DataSetColumn="RecordingDescription" />
+              <Mapping SourceColumn="HoldingPotential" DataSetColumn="HoldingPotential" />
+              <Mapping SourceColumn="PipetteResistance" DataSetColumn="PipetteResistance" />
+              <Mapping SourceColumn="SealResistance" DataSetColumn="SealResistance" />
+              <Mapping SourceColumn="CellCapacitance" DataSetColumn="CellCapacitance" />
+              <Mapping SourceColumn="SeriesResistance" DataSetColumn="SeriesResistance" />
+              <Mapping SourceColumn="MembraneResistance" DataSetColumn="MembraneResistance" />
+              <Mapping SourceColumn="MembranePotential" DataSetColumn="MembranePotential" />
+              <Mapping SourceColumn="BreakInTime" DataSetColumn="BreakInTime" />
+              <Mapping SourceColumn="RoughAppearanceRating" DataSetColumn="RoughAppearanceRating" />
+              <Mapping SourceColumn="LengthAppearanceRating" DataSetColumn="LengthAppearanceRating" />
+              <Mapping SourceColumn="ShapeAppearanceRating" DataSetColumn="ShapeAppearanceRating" />
+              <Mapping SourceColumn="BathSolution" DataSetColumn="BathSolution" />
+              <Mapping SourceColumn="PipetteSolution" DataSetColumn="PipetteSolution" />
+              <Mapping SourceColumn="Comments" DataSetColumn="Comments" />
+              <Mapping SourceColumn="LatencyTime" DataSetColumn="LatencyTime" />
+              <Mapping SourceColumn="RecordingID" DataSetColumn="RecordingID" />
+              <Mapping SourceColumn="TimeSinceBreakIn" DataSetColumn="TimeSinceBreakIn" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MacroscopicRecordingsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MacroscopicRecordingsDataSet" msprop:Generator_DataSetName="MacroscopicRecordingsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MacroscopicRecordings" msprop:Generator_UserTableName="MacroscopicRecordings" msprop:Generator_RowDeletedName="MacroscopicRecordingsRowDeleted" msprop:Generator_RowChangedName="MacroscopicRecordingsRowChanged" msprop:Generator_RowClassName="MacroscopicRecordingsRow" msprop:Generator_RowChangingName="MacroscopicRecordingsRowChanging" msprop:Generator_RowEvArgName="MacroscopicRecordingsRowChangeEvent" msprop:Generator_RowEvHandlerName="MacroscopicRecordingsRowChangeEventHandler" msprop:Generator_TableClassName="MacroscopicRecordingsDataTable" msprop:Generator_TableVarName="tableMacroscopicRecordings" msprop:Generator_RowDeletingName="MacroscopicRecordingsRowDeleting" msprop:Generator_TablePropName="MacroscopicRecordings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CellID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="CellID" msprop:Generator_ColumnVarNameInTable="columnCellID" msprop:Generator_ColumnPropNameInRow="CellID" msprop:Generator_ColumnPropNameInTable="CellIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Genotype" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Genotype" msprop:Generator_ColumnVarNameInTable="columnGenotype" msprop:Generator_ColumnPropNameInRow="Genotype" msprop:Generator_ColumnPropNameInTable="GenotypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AnalysisDate" msprop:Generator_UserColumnName="AnalysisDate" msprop:Generator_ColumnVarNameInTable="columnAnalysisDate" msprop:Generator_ColumnPropNameInRow="AnalysisDate" msprop:Generator_ColumnPropNameInTable="AnalysisDateColumn" type="xs:dateTime" />
+              <xs:element name="Recorded" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Recorded" msprop:Generator_ColumnVarNameInTable="columnRecorded" msprop:Generator_ColumnPropNameInRow="Recorded" msprop:Generator_ColumnPropNameInTable="RecordedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Name" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Title" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RelativeLogIntensity" msprop:Generator_UserColumnName="RelativeLogIntensity" msprop:Generator_ColumnVarNameInTable="columnRelativeLogIntensity" msprop:Generator_ColumnPropNameInRow="RelativeLogIntensity" msprop:Generator_ColumnPropNameInTable="RelativeLogIntensityColumn" type="xs:float" />
+              <xs:element name="CalciumConcentration" msprop:Generator_UserColumnName="CalciumConcentration" msprop:Generator_ColumnVarNameInTable="columnCalciumConcentration" msprop:Generator_ColumnPropNameInRow="CalciumConcentration" msprop:Generator_ColumnPropNameInTable="CalciumConcentrationColumn" type="xs:float" />
+              <xs:element name="Amplitude" msprop:Generator_UserColumnName="Amplitude" msprop:Generator_ColumnVarNameInTable="columnAmplitude" msprop:Generator_ColumnPropNameInRow="Amplitude" msprop:Generator_ColumnPropNameInTable="AmplitudeColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="ChargeIntegral" msprop:Generator_UserColumnName="ChargeIntegral" msprop:Generator_ColumnVarNameInTable="columnChargeIntegral" msprop:Generator_ColumnPropNameInRow="ChargeIntegral" msprop:Generator_ColumnPropNameInTable="ChargeIntegralColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="SlowActivationTime" msprop:Generator_UserColumnName="SlowActivationTime" msprop:Generator_ColumnVarNameInTable="columnSlowActivationTime" msprop:Generator_ColumnPropNameInRow="SlowActivationTime" msprop:Generator_ColumnPropNameInTable="SlowActivationTimeColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="FastActivationTime" msprop:Generator_UserColumnName="FastActivationTime" msprop:Generator_ColumnVarNameInTable="columnFastActivationTime" msprop:Generator_ColumnPropNameInRow="FastActivationTime" msprop:Generator_ColumnPropNameInTable="FastActivationTimeColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="FastInactivationTime" msprop:Generator_UserColumnName="FastInactivationTime" msprop:Generator_ColumnVarNameInTable="columnFastInactivationTime" msprop:Generator_ColumnPropNameInRow="FastInactivationTime" msprop:Generator_ColumnPropNameInTable="FastInactivationTimeColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="SlowInactivationTime" msprop:Generator_UserColumnName="SlowInactivationTime" msprop:Generator_ColumnVarNameInTable="columnSlowInactivationTime" msprop:Generator_ColumnPropNameInRow="SlowInactivationTime" msprop:Generator_ColumnPropNameInTable="SlowInactivationTimeColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="ResponseHalfWidth" msdata:ReadOnly="true" msdata:Expression="FastActivationTime+FastInactivationTime" msdata:Caption="Response Half-Width (ms)" msprop:Generator_UserColumnName="ResponseHalfWidth" msprop:Generator_ColumnPropNameInRow="ResponseHalfWidth" msprop:Generator_ColumnVarNameInTable="columnResponseHalfWidth" msprop:Generator_ColumnPropNameInTable="ResponseHalfWidthColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="CellDescription" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CellDescription" msprop:Generator_ColumnVarNameInTable="columnCellDescription" msprop:Generator_ColumnPropNameInRow="CellDescription" msprop:Generator_ColumnPropNameInTable="CellDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RecordingDescription" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RecordingDescription" msprop:Generator_ColumnVarNameInTable="columnRecordingDescription" msprop:Generator_ColumnPropNameInRow="RecordingDescription" msprop:Generator_ColumnPropNameInTable="RecordingDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HoldingPotential" msdata:ReadOnly="true" msprop:Generator_UserColumnName="HoldingPotential" msprop:Generator_ColumnVarNameInTable="columnHoldingPotential" msprop:Generator_ColumnPropNameInRow="HoldingPotential" msprop:Generator_ColumnPropNameInTable="HoldingPotentialColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="PipetteResistance" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PipetteResistance" msprop:Generator_ColumnVarNameInTable="columnPipetteResistance" msprop:Generator_ColumnPropNameInRow="PipetteResistance" msprop:Generator_ColumnPropNameInTable="PipetteResistanceColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="SealResistance" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SealResistance" msprop:Generator_ColumnVarNameInTable="columnSealResistance" msprop:Generator_ColumnPropNameInRow="SealResistance" msprop:Generator_ColumnPropNameInTable="SealResistanceColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="CellCapacitance" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CellCapacitance" msprop:Generator_ColumnVarNameInTable="columnCellCapacitance" msprop:Generator_ColumnPropNameInRow="CellCapacitance" msprop:Generator_ColumnPropNameInTable="CellCapacitanceColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="SeriesResistance" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SeriesResistance" msprop:Generator_ColumnVarNameInTable="columnSeriesResistance" msprop:Generator_ColumnPropNameInRow="SeriesResistance" msprop:Generator_ColumnPropNameInTable="SeriesResistanceColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="MembraneResistance" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MembraneResistance" msprop:Generator_ColumnVarNameInTable="columnMembraneResistance" msprop:Generator_ColumnPropNameInRow="MembraneResistance" msprop:Generator_ColumnPropNameInTable="MembraneResistanceColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="MembranePotential" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MembranePotential" msprop:Generator_ColumnVarNameInTable="columnMembranePotential" msprop:Generator_ColumnPropNameInRow="MembranePotential" msprop:Generator_ColumnPropNameInTable="MembranePotentialColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="BreakInTime" msdata:ReadOnly="true" msprop:Generator_UserColumnName="BreakInTime" msprop:Generator_ColumnVarNameInTable="columnBreakInTime" msprop:Generator_ColumnPropNameInRow="BreakInTime" msprop:Generator_ColumnPropNameInTable="BreakInTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeSinceBreakIn" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TimeSinceBreakIn" msprop:Generator_ColumnVarNameInTable="columnTimeSinceBreakIn" msprop:Generator_ColumnPropNameInRow="TimeSinceBreakIn" msprop:Generator_ColumnPropNameInTable="TimeSinceBreakInColumn" type="xs:duration" minOccurs="0" />
+              <xs:element name="RoughAppearanceRating" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RoughAppearanceRating" msprop:Generator_ColumnVarNameInTable="columnRoughAppearanceRating" msprop:Generator_ColumnPropNameInRow="RoughAppearanceRating" msprop:Generator_ColumnPropNameInTable="RoughAppearanceRatingColumn" type="xs:unsignedShort" minOccurs="0" />
+              <xs:element name="LengthAppearanceRating" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LengthAppearanceRating" msprop:Generator_ColumnVarNameInTable="columnLengthAppearanceRating" msprop:Generator_ColumnPropNameInRow="LengthAppearanceRating" msprop:Generator_ColumnPropNameInTable="LengthAppearanceRatingColumn" type="xs:unsignedShort" minOccurs="0" />
+              <xs:element name="ShapeAppearanceRating" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ShapeAppearanceRating" msprop:Generator_ColumnVarNameInTable="columnShapeAppearanceRating" msprop:Generator_ColumnPropNameInRow="ShapeAppearanceRating" msprop:Generator_ColumnPropNameInTable="ShapeAppearanceRatingColumn" type="xs:unsignedShort" minOccurs="0" />
+              <xs:element name="BathSolution" msdata:ReadOnly="true" msprop:Generator_UserColumnName="BathSolution" msprop:Generator_ColumnVarNameInTable="columnBathSolution" msprop:Generator_ColumnPropNameInRow="BathSolution" msprop:Generator_ColumnPropNameInTable="BathSolutionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PipetteSolution" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PipetteSolution" msprop:Generator_ColumnVarNameInTable="columnPipetteSolution" msprop:Generator_ColumnPropNameInRow="PipetteSolution" msprop:Generator_ColumnPropNameInTable="PipetteSolutionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Comments" msprop:Generator_UserColumnName="Comments" msprop:Generator_ColumnVarNameInTable="columnComments" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65535" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TimeOfPeak" msprop:Generator_UserColumnName="TimeOfPeak" msprop:Generator_ColumnPropNameInRow="TimeOfPeak" msprop:Generator_ColumnVarNameInTable="columnTimeOfPeak" msprop:Generator_ColumnPropNameInTable="TimeOfPeakColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="LatencyTime" msprop:Generator_UserColumnName="LatencyTime" msprop:Generator_ColumnPropNameInRow="LatencyTime" msprop:Generator_ColumnVarNameInTable="columnLatencyTime" msprop:Generator_ColumnPropNameInTable="LatencyTimeColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="RecordingID" msprop:Generator_UserColumnName="RecordingID" msprop:Generator_ColumnPropNameInRow="RecordingID" msprop:Generator_ColumnVarNameInTable="columnRecordingID" msprop:Generator_ColumnPropNameInTable="RecordingIDColumn" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MacroscopicRecordings" />
+      <xs:field xpath="mstns:RecordingID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

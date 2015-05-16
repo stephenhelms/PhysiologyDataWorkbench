@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express Codename Orcas
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysiologyWorkbench", "PhysiologyWorkbench2\PhysiologyWorkbench.csproj", "{3BF2AB9D-653F-4956-B347-CA72A25EDC92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysiologyWorkbench.Data", "PhysiologyWorkbench.Data\PhysiologyWorkbench.Data.csproj", "{2F6CB226-0311-4613-BD8C-E39E87365D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{6ECB6A3B-D7A4-46B6-B3DC-97504E3B0543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysiologyDataConnectivity", "..\PhysiologyDataViewer3\PhysiologyDataConnectivity\PhysiologyDataConnectivity.csproj", "{DB6D2D28-A38F-430F-9C7F-8B7EA49A38A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysiologyData.GUI", "..\PhysiologyDataGUI\PhysiologyData.GUI\PhysiologyData.GUI.csproj", "{46F4BC89-7C07-49DE-BAE4-61FF1C3D3169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BF2AB9D-653F-4956-B347-CA72A25EDC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF2AB9D-653F-4956-B347-CA72A25EDC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF2AB9D-653F-4956-B347-CA72A25EDC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF2AB9D-653F-4956-B347-CA72A25EDC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6CB226-0311-4613-BD8C-E39E87365D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6CB226-0311-4613-BD8C-E39E87365D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6CB226-0311-4613-BD8C-E39E87365D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6CB226-0311-4613-BD8C-E39E87365D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ECB6A3B-D7A4-46B6-B3DC-97504E3B0543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECB6A3B-D7A4-46B6-B3DC-97504E3B0543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ECB6A3B-D7A4-46B6-B3DC-97504E3B0543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECB6A3B-D7A4-46B6-B3DC-97504E3B0543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6D2D28-A38F-430F-9C7F-8B7EA49A38A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6D2D28-A38F-430F-9C7F-8B7EA49A38A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6D2D28-A38F-430F-9C7F-8B7EA49A38A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6D2D28-A38F-430F-9C7F-8B7EA49A38A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F4BC89-7C07-49DE-BAE4-61FF1C3D3169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F4BC89-7C07-49DE-BAE4-61FF1C3D3169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F4BC89-7C07-49DE-BAE4-61FF1C3D3169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F4BC89-7C07-49DE-BAE4-61FF1C3D3169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

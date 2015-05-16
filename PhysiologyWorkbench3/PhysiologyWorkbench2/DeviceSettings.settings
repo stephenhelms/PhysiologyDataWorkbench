@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RRLab.PhysiologyWorkbench" GeneratedClassName="DeviceSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DeviceManagerPersistenceFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DeviceManagerPersistence.dat</Value>
+    </Setting>
+    <Setting Name="DefaultSamplingRate" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2500</Value>
+    </Setting>
+    <Setting Name="DefaultSampleClock" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DefaultSampleClockActiveEdge" Type="NationalInstruments.DAQmx.SampleClockActiveEdge" Scope="Application">
+      <Value Profile="(Default)">Rising</Value>
+    </Setting>
+    <Setting Name="AmplifierName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Axopatch 220B</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

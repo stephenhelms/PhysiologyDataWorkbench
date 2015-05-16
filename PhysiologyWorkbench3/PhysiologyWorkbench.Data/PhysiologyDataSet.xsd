@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PhysiologyDataSet" targetNamespace="http://tempuri.org/PhysiologyDataSet.xsd" xmlns:mstns="http://tempuri.org/PhysiologyDataSet.xsd" xmlns="http://tempuri.org/PhysiologyDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection IsAppSettingsProperty="False" Modifier="Assembly" Name="IMG_PHYS(physiology_data)" ParameterPrefix="?" Provider="MySql.Data.MySqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PhysiologyDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="PhysiologyDataSet" msprop:Generator_DataSetName="PhysiologyDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Users" msprop:Generator_UserTableName="Users" msprop:Generator_RowDeletedName="UsersRowDeleted" msprop:Generator_RowChangedName="UsersRowChanged" msprop:Generator_RowClassName="UsersRow" msprop:Generator_RowChangingName="UsersRowChanging" msprop:Generator_RowEvArgName="UsersRowChangeEvent" msprop:Generator_RowEvHandlerName="UsersRowChangeEventHandler" msprop:Generator_TableClassName="UsersDataTable" msprop:Generator_TableVarName="tableUsers" msprop:Generator_RowDeletingName="UsersRowDeleting" msprop:Generator_TablePropName="Users">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:short" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Cells" msprop:Generator_UserTableName="Cells" msprop:Generator_RowDeletedName="CellsRowDeleted" msprop:Generator_RowChangedName="CellsRowChanged" msprop:Generator_RowClassName="CellsRow" msprop:Generator_RowChangingName="CellsRowChanging" msprop:Generator_RowEvArgName="CellsRowChangeEvent" msprop:Generator_RowEvHandlerName="CellsRowChangeEventHandler" msprop:Generator_TableClassName="CellsDataTable" msprop:Generator_TableVarName="tableCells" msprop:Generator_RowDeletingName="CellsRowDeleting" msprop:Generator_TablePropName="Cells">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CellID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="CellID" msprop:Generator_ColumnPropNameInRow="CellID" msprop:Generator_ColumnVarNameInTable="columnCellID" msprop:Generator_ColumnPropNameInTable="CellIDColumn" type="xs:int" />
+              <xs:element name="FlyStockID" msprop:Generator_UserColumnName="FlyStockID" msprop:Generator_ColumnPropNameInRow="FlyStockID" msprop:Generator_ColumnVarNameInTable="columnFlyStockID" msprop:Generator_ColumnPropNameInTable="FlyStockIDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Created" msdata:Caption="Date Created" msdata:DateTimeMode="Local" msprop:Generator_UserColumnName="Created" msprop:Generator_ColumnPropNameInRow="Created" msprop:Generator_ColumnVarNameInTable="columnCreated" msprop:Generator_ColumnPropNameInTable="CreatedColumn" type="xs:dateTime" />
+              <xs:element name="PipetteResistance" msdata:Caption="Pipette Resistance (MOhm)" msprop:Generator_UserColumnName="PipetteResistance" msprop:Generator_ColumnPropNameInRow="PipetteResistance" msprop:Generator_ColumnVarNameInTable="columnPipetteResistance" msprop:Generator_ColumnPropNameInTable="PipetteResistanceColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="SealResistance" msdata:Caption="Seal Resistance (GOhm)" msprop:Generator_UserColumnName="SealResistance" msprop:Generator_ColumnPropNameInRow="SealResistance" msprop:Generator_ColumnVarNameInTable="columnSealResistance" msprop:Generator_ColumnPropNameInTable="SealResistanceColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="CellCapacitance" msdata:Caption="Cell Capacitance (pF)" msprop:Generator_UserColumnName="CellCapacitance" msprop:Generator_ColumnPropNameInRow="CellCapacitance" msprop:Generator_ColumnVarNameInTable="columnCellCapacitance" msprop:Generator_ColumnPropNameInTable="CellCapacitanceColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="SeriesResistance" msdata:Caption="Series Resistance (MOhm)" msprop:Generator_UserColumnName="SeriesResistance" msprop:Generator_ColumnPropNameInRow="SeriesResistance" msprop:Generator_ColumnVarNameInTable="columnSeriesResistance" msprop:Generator_ColumnPropNameInTable="SeriesResistanceColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="MembraneResistance" msdata:Caption="Membrane Resistance (MOhm)" msprop:Generator_UserColumnName="MembraneResistance" msprop:Generator_ColumnPropNameInRow="MembraneResistance" msprop:Generator_ColumnVarNameInTable="columnMembraneResistance" msprop:Generator_ColumnPropNameInTable="MembraneResistanceColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="MembranePotential" msdata:Caption="Membrane Potential (mV)" msprop:Generator_UserColumnName="MembranePotential" msprop:Generator_ColumnPropNameInRow="MembranePotential" msprop:Generator_ColumnVarNameInTable="columnMembranePotential" msprop:Generator_ColumnPropNameInTable="MembranePotentialColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="BreakInTime" msdata:Caption="Break-In Time" msdata:DateTimeMode="Local" msprop:Generator_UserColumnName="BreakInTime" msprop:Generator_ColumnPropNameInRow="BreakInTime" msprop:Generator_ColumnVarNameInTable="columnBreakInTime" msprop:Generator_ColumnPropNameInTable="BreakInTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RoughAppearanceRating" msdata:Caption="Roughness" msprop:Generator_UserColumnName="RoughAppearanceRating" msprop:Generator_ColumnPropNameInRow="RoughAppearanceRating" msprop:Generator_ColumnVarNameInTable="columnRoughAppearanceRating" msprop:Generator_ColumnPropNameInTable="RoughAppearanceRatingColumn" type="xs:unsignedShort" minOccurs="0" />
+              <xs:element name="LengthAppearanceRating" msdata:Caption="Shortness" msprop:Generator_UserColumnName="LengthAppearanceRating" msprop:Generator_ColumnPropNameInRow="LengthAppearanceRating" msprop:Generator_ColumnVarNameInTable="columnLengthAppearanceRating" msprop:Generator_ColumnPropNameInTable="LengthAppearanceRatingColumn" type="xs:unsignedShort" minOccurs="0" />
+              <xs:element name="ShapeAppearanceRating" msdata:Caption="Blebbiness" msprop:Generator_UserColumnName="ShapeAppearanceRating" msprop:Generator_ColumnPropNameInRow="ShapeAppearanceRating" msprop:Generator_ColumnVarNameInTable="columnShapeAppearanceRating" msprop:Generator_ColumnPropNameInTable="ShapeAppearanceRatingColumn" type="xs:unsignedShort" minOccurs="0" />
+              <xs:element name="AppearanceScore" msdata:ReadOnly="true" msdata:Expression="(RoughAppearanceRating+LengthAppearanceRating+ShapeAppearanceRating)/3" msdata:Caption="Overall Appearance Rating" msprop:Generator_UserColumnName="AppearanceScore" msprop:Generator_ColumnVarNameInTable="columnAppearanceScore" msprop:Generator_ColumnPropNameInRow="AppearanceScore" msprop:Generator_ColumnPropNameInTable="AppearanceScoreColumn" type="xs:unsignedShort" minOccurs="0" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:short" />
+              <xs:element name="NumberOfRecordings" msdata:ReadOnly="true" msdata:Expression="Count(Child(FK_Cells_Recordings).RecordingID)" msprop:Generator_UserColumnName="NumberOfRecordings" msprop:Generator_ColumnVarNameInTable="columnNumberOfRecordings" msprop:Generator_ColumnPropNameInRow="NumberOfRecordings" msprop:Generator_ColumnPropNameInTable="NumberOfRecordingsColumn" type="xs:unsignedShort" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Genotypes" msprop:Generator_UserTableName="Genotypes" msprop:Generator_RowDeletedName="GenotypesRowDeleted" msprop:Generator_RowChangedName="GenotypesRowChanged" msprop:Generator_RowClassName="GenotypesRow" msprop:Generator_RowChangingName="GenotypesRowChanging" msprop:Generator_RowEvArgName="GenotypesRowChangeEvent" msprop:Generator_RowEvHandlerName="GenotypesRowChangeEventHandler" msprop:Generator_TableClassName="GenotypesDataTable" msprop:Generator_TableVarName="tableGenotypes" msprop:Generator_RowDeletingName="GenotypesRowDeleting" msprop:Generator_TablePropName="Genotypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FlyStockID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="FlyStockID" msprop:Generator_ColumnPropNameInRow="FlyStockID" msprop:Generator_ColumnVarNameInTable="columnFlyStockID" msprop:Generator_ColumnPropNameInTable="FlyStockIDColumn" type="xs:int" />
+              <xs:element name="Genotype" msprop:Generator_UserColumnName="Genotype" msprop:Generator_ColumnPropNameInRow="Genotype" msprop:Generator_ColumnVarNameInTable="columnGenotype" msprop:Generator_ColumnPropNameInTable="GenotypeColumn" type="xs:string" />
+              <xs:element name="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInTable="NotesColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Recordings" msprop:Generator_UserTableName="Recordings" msprop:Generator_RowDeletedName="RecordingsRowDeleted" msprop:Generator_RowChangedName="RecordingsRowChanged" msprop:Generator_RowClassName="RecordingsRow" msprop:Generator_RowChangingName="RecordingsRowChanging" msprop:Generator_RowEvArgName="RecordingsRowChangeEvent" msprop:Generator_RowEvHandlerName="RecordingsRowChangeEventHandler" msprop:Generator_TableClassName="RecordingsDataTable" msprop:Generator_TableVarName="tableRecordings" msprop:Generator_RowDeletingName="RecordingsRowDeleting" msprop:Generator_TablePropName="Recordings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordingID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="RecordingID" msprop:Generator_ColumnPropNameInRow="RecordingID" msprop:Generator_ColumnVarNameInTable="columnRecordingID" msprop:Generator_ColumnPropNameInTable="RecordingIDColumn" type="xs:long" />
+              <xs:element name="CellID" msprop:Generator_UserColumnName="CellID" msprop:Generator_ColumnPropNameInRow="CellID" msprop:Generator_ColumnVarNameInTable="columnCellID" msprop:Generator_ColumnPropNameInTable="CellIDColumn" type="xs:int" />
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInTable="TitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Recorded" msdata:DateTimeMode="Local" msprop:Generator_UserColumnName="Recorded" msprop:Generator_ColumnPropNameInRow="Recorded" msprop:Generator_ColumnVarNameInTable="columnRecorded" msprop:Generator_ColumnPropNameInTable="RecordedColumn" type="xs:dateTime" />
+              <xs:element name="HoldingPotential" msdata:Caption="Holding Potential (mV)" msprop:Generator_UserColumnName="HoldingPotential" msprop:Generator_ColumnPropNameInRow="HoldingPotential" msprop:Generator_ColumnVarNameInTable="columnHoldingPotential" msprop:Generator_ColumnPropNameInTable="HoldingPotentialColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="BathSolution" msdata:Caption="Bath Solution" msprop:Generator_UserColumnName="BathSolution" msprop:Generator_ColumnVarNameInTable="columnBathSolution" msprop:Generator_ColumnPropNameInRow="BathSolution" msprop:Generator_ColumnPropNameInTable="BathSolutionColumn" type="xs:string" />
+              <xs:element name="PipetteSolution" msdata:Caption="Pipette Solution" msprop:Generator_UserColumnName="PipetteSolution" msprop:Generator_ColumnVarNameInTable="columnPipetteSolution" msprop:Generator_ColumnPropNameInRow="PipetteSolution" msprop:Generator_ColumnPropNameInTable="PipetteSolutionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeSinceBreakIn" msdata:Caption="Time Since Break-In" msprop:Generator_UserColumnName="TimeSinceBreakIn" msprop:Generator_ColumnVarNameInTable="columnTimeSinceBreakIn" msprop:Generator_ColumnPropNameInRow="TimeSinceBreakIn" msprop:Generator_ColumnPropNameInTable="TimeSinceBreakInColumn" type="xs:duration" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Recordings_Data" msprop:Generator_UserTableName="Recordings_Data" msprop:Generator_RowDeletedName="Recordings_DataRowDeleted" msprop:Generator_RowChangedName="Recordings_DataRowChanged" msprop:Generator_RowClassName="Recordings_DataRow" msprop:Generator_RowChangingName="Recordings_DataRowChanging" msprop:Generator_RowEvArgName="Recordings_DataRowChangeEvent" msprop:Generator_RowEvHandlerName="Recordings_DataRowChangeEventHandler" msprop:Generator_TableClassName="Recordings_DataDataTable" msprop:Generator_TableVarName="tableRecordings_Data" msprop:Generator_RowDeletingName="Recordings_DataRowDeleting" msprop:Generator_TablePropName="Recordings_Data">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DataPointID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="DataPointID" msprop:Generator_ColumnPropNameInRow="DataPointID" msprop:Generator_ColumnVarNameInTable="columnDataPointID" msprop:Generator_ColumnPropNameInTable="DataPointIDColumn" type="xs:long" />
+              <xs:element name="RecordingID" msprop:Generator_UserColumnName="RecordingID" msprop:Generator_ColumnPropNameInRow="RecordingID" msprop:Generator_ColumnVarNameInTable="columnRecordingID" msprop:Generator_ColumnPropNameInTable="RecordingIDColumn" type="xs:long" />
+              <xs:element name="DataName" msprop:Generator_UserColumnName="DataName" msprop:Generator_ColumnPropNameInRow="DataName" msprop:Generator_ColumnVarNameInTable="columnDataName" msprop:Generator_ColumnPropNameInTable="DataNameColumn" type="xs:string" />
+              <xs:element name="Time" msprop:Generator_UserColumnName="Time" msprop:Generator_ColumnPropNameInRow="Time" msprop:Generator_ColumnVarNameInTable="columnTime" msprop:Generator_ColumnPropNameInTable="TimeColumn" type="xs:float" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Units" msprop:Generator_UserColumnName="Units" msprop:Generator_ColumnPropNameInRow="Units" msprop:Generator_ColumnVarNameInTable="columnUnits" msprop:Generator_ColumnPropNameInTable="UnitsColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Recordings_MetaData" msprop:Generator_UserTableName="Recordings_MetaData" msprop:Generator_RowDeletedName="Recordings_MetaDataRowDeleted" msprop:Generator_RowChangedName="Recordings_MetaDataRowChanged" msprop:Generator_RowClassName="Recordings_MetaDataRow" msprop:Generator_RowChangingName="Recordings_MetaDataRowChanging" msprop:Generator_RowEvArgName="Recordings_MetaDataRowChangeEvent" msprop:Generator_RowEvHandlerName="Recordings_MetaDataRowChangeEventHandler" msprop:Generator_TableClassName="Recordings_MetaDataDataTable" msprop:Generator_TableVarName="tableRecordings_MetaData" msprop:Generator_RowDeletingName="Recordings_MetaDataRowDeleting" msprop:Generator_TablePropName="Recordings_MetaData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MetaDataID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="MetaDataID" msprop:Generator_ColumnPropNameInRow="MetaDataID" msprop:Generator_ColumnVarNameInTable="columnMetaDataID" msprop:Generator_ColumnPropNameInTable="MetaDataIDColumn" type="xs:long" />
+              <xs:element name="RecordingID" msprop:Generator_UserColumnName="RecordingID" msprop:Generator_ColumnPropNameInRow="RecordingID" msprop:Generator_ColumnVarNameInTable="columnRecordingID" msprop:Generator_ColumnPropNameInTable="RecordingIDColumn" type="xs:long" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Recordings_ProtocolSettings" msprop:Generator_UserTableName="Recordings_ProtocolSettings" msprop:Generator_RowDeletedName="Recordings_ProtocolSettingsRowDeleted" msprop:Generator_RowChangedName="Recordings_ProtocolSettingsRowChanged" msprop:Generator_RowClassName="Recordings_ProtocolSettingsRow" msprop:Generator_RowChangingName="Recordings_ProtocolSettingsRowChanging" msprop:Generator_RowEvArgName="Recordings_ProtocolSettingsRowChangeEvent" msprop:Generator_RowEvHandlerName="Recordings_ProtocolSettingsRowChangeEventHandler" msprop:Generator_TableClassName="Recordings_ProtocolSettingsDataTable" msprop:Generator_TableVarName="tableRecordings_ProtocolSettings" msprop:Generator_RowDeletingName="Recordings_ProtocolSettingsRowDeleting" msprop:Generator_TablePropName="Recordings_ProtocolSettings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProtocolSettingsID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="ProtocolSettingsID" msprop:Generator_ColumnPropNameInRow="ProtocolSettingsID" msprop:Generator_ColumnVarNameInTable="columnProtocolSettingsID" msprop:Generator_ColumnPropNameInTable="ProtocolSettingsIDColumn" type="xs:long" />
+              <xs:element name="RecordingID" msprop:Generator_UserColumnName="RecordingID" msprop:Generator_ColumnPropNameInRow="RecordingID" msprop:Generator_ColumnVarNameInTable="columnRecordingID" msprop:Generator_ColumnPropNameInTable="RecordingIDColumn" type="xs:long" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Recordings_EquipmentSettings" msprop:Generator_UserTableName="Recordings_EquipmentSettings" msprop:Generator_RowDeletedName="Recordings_EquipmentSettingsRowDeleted" msprop:Generator_RowChangedName="Recordings_EquipmentSettingsRowChanged" msprop:Generator_RowClassName="Recordings_EquipmentSettingsRow" msprop:Generator_RowChangingName="Recordings_EquipmentSettingsRowChanging" msprop:Generator_RowEvArgName="Recordings_EquipmentSettingsRowChangeEvent" msprop:Generator_RowEvHandlerName="Recordings_EquipmentSettingsRowChangeEventHandler" msprop:Generator_TableClassName="Recordings_EquipmentSettingsDataTable" msprop:Generator_TableVarName="tableRecordings_EquipmentSettings" msprop:Generator_RowDeletingName="Recordings_EquipmentSettingsRowDeleting" msprop:Generator_TablePropName="Recordings_EquipmentSettings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EquipmentSettingsID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="EquipmentSettingsID" msprop:Generator_ColumnPropNameInRow="EquipmentSettingsID" msprop:Generator_ColumnVarNameInTable="columnEquipmentSettingsID" msprop:Generator_ColumnPropNameInTable="EquipmentSettingsIDColumn" type="xs:long" />
+              <xs:element name="RecordingID" msprop:Generator_UserColumnName="RecordingID" msprop:Generator_ColumnPropNameInRow="RecordingID" msprop:Generator_ColumnVarNameInTable="columnRecordingID" msprop:Generator_ColumnPropNameInTable="RecordingIDColumn" type="xs:long" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Recordings_Annotations" msprop:Generator_UserTableName="Recordings_Annotations" msprop:Generator_RowDeletedName="Recordings_AnnotationsRowDeleted" msprop:Generator_RowChangedName="Recordings_AnnotationsRowChanged" msprop:Generator_RowClassName="Recordings_AnnotationsRow" msprop:Generator_RowChangingName="Recordings_AnnotationsRowChanging" msprop:Generator_RowEvArgName="Recordings_AnnotationsRowChangeEvent" msprop:Generator_RowEvHandlerName="Recordings_AnnotationsRowChangeEventHandler" msprop:Generator_TableClassName="Recordings_AnnotationsDataTable" msprop:Generator_TableVarName="tableRecordings_Annotations" msprop:Generator_RowDeletingName="Recordings_AnnotationsRowDeleting" msprop:Generator_TablePropName="Recordings_Annotations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AnnotationID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="AnnotationID" msprop:Generator_ColumnPropNameInRow="AnnotationID" msprop:Generator_ColumnVarNameInTable="columnAnnotationID" msprop:Generator_ColumnPropNameInTable="AnnotationIDColumn" type="xs:long" />
+              <xs:element name="RecordingID" msprop:Generator_UserColumnName="RecordingID" msprop:Generator_ColumnPropNameInRow="RecordingID" msprop:Generator_ColumnVarNameInTable="columnRecordingID" msprop:Generator_ColumnPropNameInTable="RecordingIDColumn" type="xs:long" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="Entered" msdata:DateTimeMode="Local" msprop:Generator_UserColumnName="Entered" msprop:Generator_ColumnPropNameInRow="Entered" msprop:Generator_ColumnVarNameInTable="columnEntered" msprop:Generator_ColumnPropNameInTable="EnteredColumn" type="xs:dateTime" />
+              <xs:element name="Text" msprop:Generator_UserColumnName="Text" msprop:Generator_ColumnPropNameInRow="Text" msprop:Generator_ColumnVarNameInTable="columnText" msprop:Generator_ColumnPropNameInTable="TextColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Cells_Annotations" msprop:Generator_UserTableName="Cells_Annotations" msprop:Generator_RowDeletedName="Cells_AnnotationsRowDeleted" msprop:Generator_RowChangedName="Cells_AnnotationsRowChanged" msprop:Generator_RowClassName="Cells_AnnotationsRow" msprop:Generator_RowChangingName="Cells_AnnotationsRowChanging" msprop:Generator_RowEvArgName="Cells_AnnotationsRowChangeEvent" msprop:Generator_RowEvHandlerName="Cells_AnnotationsRowChangeEventHandler" msprop:Generator_TableClassName="Cells_AnnotationsDataTable" msprop:Generator_TableVarName="tableCells_Annotations" msprop:Generator_RowDeletingName="Cells_AnnotationsRowDeleting" msprop:Generator_TablePropName="Cells_Annotations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AnnotationID" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="AnnotationID" msprop:Generator_ColumnPropNameInRow="AnnotationID" msprop:Generator_ColumnVarNameInTable="columnAnnotationID" msprop:Generator_ColumnPropNameInTable="AnnotationIDColumn" type="xs:long" />
+              <xs:element name="CellID" msprop:Generator_UserColumnName="CellID" msprop:Generator_ColumnPropNameInRow="CellID" msprop:Generator_ColumnVarNameInTable="columnCellID" msprop:Generator_ColumnPropNameInTable="CellIDColumn" type="xs:int" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:short" />
+              <xs:element name="Entered" msdata:DateTimeMode="Local" msprop:Generator_UserColumnName="Entered" msprop:Generator_ColumnPropNameInRow="Entered" msprop:Generator_ColumnVarNameInTable="columnEntered" msprop:Generator_ColumnPropNameInTable="EnteredColumn" type="xs:dateTime" />
+              <xs:element name="Text" msprop:Generator_UserColumnName="Text" msprop:Generator_ColumnPropNameInRow="Text" msprop:Generator_ColumnVarNameInTable="columnText" msprop:Generator_ColumnPropNameInTable="TextColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Users" />
+      <xs:field xpath="mstns:UserID" />
+    </xs:unique>
+    <xs:unique name="Cells_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Cells" />
+      <xs:field xpath="mstns:CellID" />
+    </xs:unique>
+    <xs:unique name="Genotypes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Genotypes" />
+      <xs:field xpath="mstns:FlyStockID" />
+    </xs:unique>
+    <xs:unique name="Recordings_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Recordings" />
+      <xs:field xpath="mstns:RecordingID" />
+    </xs:unique>
+    <xs:unique name="Recordings_Data_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Recordings_Data" />
+      <xs:field xpath="mstns:DataPointID" />
+    </xs:unique>
+    <xs:unique name="Recordings_MetaData_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Recordings_MetaData" />
+      <xs:field xpath="mstns:MetaDataID" />
+    </xs:unique>
+    <xs:unique name="Recordings_ProtocolSettings_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Recordings_ProtocolSettings" />
+      <xs:field xpath="mstns:ProtocolSettingsID" />
+    </xs:unique>
+    <xs:unique name="Recordings_EquipmentSettings_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Recordings_EquipmentSettings" />
+      <xs:field xpath="mstns:EquipmentSettingsID" />
+    </xs:unique>
+    <xs:unique name="Recordings_Annotations_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Recordings_Annotations" />
+      <xs:field xpath="mstns:AnnotationID" />
+    </xs:unique>
+    <xs:unique name="Cells_Annotations_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:Cells_Annotations" />
+      <xs:field xpath="mstns:AnnotationID" />
+    </xs:unique>
+    <xs:keyref name="FK_Cells_Cells_Annotations" refer="Cells_Constraint1" msprop:rel_Generator_UserRelationName="FK_Cells_Cells_Annotations" msprop:rel_Generator_RelationVarName="relationFK_Cells_Cells_Annotations" msprop:rel_Generator_UserChildTable="Cells_Annotations" msprop:rel_Generator_UserParentTable="Cells" msprop:rel_Generator_ParentPropName="CellsRow" msprop:rel_Generator_ChildPropName="GetCells_AnnotationsRows">
+      <xs:selector xpath=".//mstns:Cells_Annotations" />
+      <xs:field xpath="mstns:CellID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Users_Cells_Annotations" refer="Constraint1" msprop:rel_Generator_UserRelationName="FK_Users_Cells_Annotations" msprop:rel_Generator_RelationVarName="relationFK_Users_Cells_Annotations" msprop:rel_Generator_UserChildTable="Cells_Annotations" msprop:rel_Generator_UserParentTable="Users" msprop:rel_Generator_ParentPropName="UsersRow" msprop:rel_Generator_ChildPropName="GetCells_AnnotationsRows" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Cells_Annotations" />
+      <xs:field xpath="mstns:UserID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Recordings_Recordings_Annotations" refer="Recordings_Constraint1" msprop:rel_Generator_UserRelationName="FK_Recordings_Recordings_Annotations" msprop:rel_Generator_RelationVarName="relationFK_Recordings_Recordings_Annotations" msprop:rel_Generator_UserChildTable="Recordings_Annotations" msprop:rel_Generator_UserParentTable="Recordings" msprop:rel_Generator_ParentPropName="RecordingsRow" msprop:rel_Generator_ChildPropName="GetRecordings_AnnotationsRows">
+      <xs:selector xpath=".//mstns:Recordings_Annotations" />
+      <xs:field xpath="mstns:RecordingID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Users_Recordings_Annotations" refer="Constraint1" msprop:rel_Generator_UserRelationName="FK_Users_Recordings_Annotations" msprop:rel_Generator_RelationVarName="relationFK_Users_Recordings_Annotations" msprop:rel_Generator_UserChildTable="Recordings_Annotations" msprop:rel_Generator_UserParentTable="Users" msprop:rel_Generator_ParentPropName="UsersRow" msprop:rel_Generator_ChildPropName="GetRecordings_AnnotationsRows">
+      <xs:selector xpath=".//mstns:Recordings_Annotations" />
+      <xs:field xpath="mstns:UserID" />
+    </xs:keyref>
+    <xs:keyref name="Recordings_Recordings_EquipmentSettings" refer="Recordings_Constraint1" msprop:rel_Generator_UserRelationName="Recordings_Recordings_EquipmentSettings" msprop:rel_Generator_RelationVarName="relationRecordings_Recordings_EquipmentSettings" msprop:rel_Generator_UserChildTable="Recordings_EquipmentSettings" msprop:rel_Generator_UserParentTable="Recordings" msprop:rel_Generator_ParentPropName="RecordingsRow" msprop:rel_Generator_ChildPropName="GetRecordings_EquipmentSettingsRows">
+      <xs:selector xpath=".//mstns:Recordings_EquipmentSettings" />
+      <xs:field xpath="mstns:RecordingID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Recordings_Recordings_ProtocolSettings" refer="Recordings_Constraint1" msprop:rel_Generator_UserRelationName="FK_Recordings_Recordings_ProtocolSettings" msprop:rel_Generator_RelationVarName="relationFK_Recordings_Recordings_ProtocolSettings" msprop:rel_Generator_UserChildTable="Recordings_ProtocolSettings" msprop:rel_Generator_UserParentTable="Recordings" msprop:rel_Generator_ParentPropName="RecordingsRow" msprop:rel_Generator_ChildPropName="GetRecordings_ProtocolSettingsRows">
+      <xs:selector xpath=".//mstns:Recordings_ProtocolSettings" />
+      <xs:field xpath="mstns:RecordingID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Recordings_Recording_MetaData" refer="Recordings_Constraint1" msprop:rel_Generator_UserRelationName="FK_Recordings_Recording_MetaData" msprop:rel_Generator_RelationVarName="relationFK_Recordings_Recording_MetaData" msprop:rel_Generator_UserChildTable="Recordings_MetaData" msprop:rel_Generator_UserParentTable="Recordings" msprop:rel_Generator_ParentPropName="RecordingsRow" msprop:rel_Generator_ChildPropName="GetRecordings_MetaDataRows">
+      <xs:selector xpath=".//mstns:Recordings_MetaData" />
+      <xs:field xpath="mstns:RecordingID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Recordings_Recording_Data" refer="Recordings_Constraint1" msprop:rel_Generator_UserRelationName="FK_Recordings_Recording_Data" msprop:rel_Generator_RelationVarName="relationFK_Recordings_Recording_Data" msprop:rel_Generator_UserChildTable="Recordings_Data" msprop:rel_Generator_UserParentTable="Recordings" msprop:rel_Generator_ParentPropName="RecordingsRow" msprop:rel_Generator_ChildPropName="GetRecordings_DataRows">
+      <xs:selector xpath=".//mstns:Recordings_Data" />
+      <xs:field xpath="mstns:RecordingID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Cells_Recordings" refer="Cells_Constraint1" msprop:rel_Generator_UserRelationName="FK_Cells_Recordings" msprop:rel_Generator_RelationVarName="relationFK_Cells_Recordings" msprop:rel_Generator_UserChildTable="Recordings" msprop:rel_Generator_UserParentTable="Cells" msprop:rel_Generator_ParentPropName="CellsRow" msprop:rel_Generator_ChildPropName="GetRecordingsRows">
+      <xs:selector xpath=".//mstns:Recordings" />
+      <xs:field xpath="mstns:CellID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Users_Cells" refer="Constraint1" msprop:rel_Generator_UserRelationName="FK_Users_Cells" msprop:rel_Generator_RelationVarName="relationFK_Users_Cells" msprop:rel_Generator_UserChildTable="Cells" msprop:rel_Generator_UserParentTable="Users" msprop:rel_Generator_ParentPropName="UsersRow" msprop:rel_Generator_ChildPropName="GetCellsRows" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Cells" />
+      <xs:field xpath="mstns:UserID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Genotypes_Cells" refer="Genotypes_Constraint1" msprop:rel_Generator_UserRelationName="FK_Genotypes_Cells" msprop:rel_Generator_RelationVarName="relationFK_Genotypes_Cells" msprop:rel_Generator_UserChildTable="Cells" msprop:rel_Generator_UserParentTable="Genotypes" msprop:rel_Generator_ParentPropName="GenotypesRow" msprop:rel_Generator_ChildPropName="GetCellsRows" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Cells" />
+      <xs:field xpath="mstns:FlyStockID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

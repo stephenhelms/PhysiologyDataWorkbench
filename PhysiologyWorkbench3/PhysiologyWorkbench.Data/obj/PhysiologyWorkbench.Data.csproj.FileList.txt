@@ -1,0 +1,80 @@
+bin\Debug\PhysiologyWorkbench.Data.dll
+bin\Debug\PhysiologyWorkbench.Data.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RRLab.PhysiologyWorkbench.Data.Properties.Resources.resources
+obj\Debug\PhysiologyWorkbench.Data.csproj.GenerateResource.Cache
+obj\Debug\PhysiologyWorkbench.Data.dll.licenses
+obj\Debug\PhysiologyWorkbench.Data.dll
+obj\Debug\PhysiologyWorkbench.Data.pdb
+bin\Debug\RRLab.Utilities.dll
+bin\Debug\ZedGraph.dll
+bin\Debug\RRLab.Utilities.pdb
+bin\Debug\ZedGraph.pdb
+bin\Debug\ZedGraph.xml
+bin\Debug\de\ZedGraph.resources.dll
+bin\Debug\es\ZedGraph.resources.dll
+bin\Debug\fr\ZedGraph.resources.dll
+bin\Debug\it\ZedGraph.resources.dll
+bin\Debug\ja\ZedGraph.resources.dll
+bin\Debug\pt\ZedGraph.resources.dll
+bin\Debug\sv\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\PhysiologyWorkbench.Data.dll
+bin\x64\Core 2 Duo Release\PhysiologyWorkbench.Data.pdb
+bin\x64\Core 2 Duo Release\RRLab.Utilities.dll
+bin\x64\Core 2 Duo Release\ZedGraph.dll
+bin\x64\Core 2 Duo Release\ZedGraph.pdb
+bin\x64\Core 2 Duo Release\ZedGraph.xml
+bin\x64\Core 2 Duo Release\RRLab.Utilities.pdb
+bin\x64\Core 2 Duo Release\de\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\es\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\fr\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\it\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\ja\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\pt\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\sv\ZedGraph.resources.dll
+obj\x64\64-bit Release\ResolveAssemblyReference.cache
+obj\x64\64-bit Release\RRLab.PhysiologyWorkbench.Data.Properties.Resources.resources
+obj\x64\64-bit Release\PhysiologyWorkbench.Data.csproj.GenerateResource.Cache
+obj\x64\64-bit Release\PhysiologyWorkbench.Data.dll.licenses
+obj\x64\64-bit Release\PhysiologyWorkbench.Data.dll
+obj\x64\64-bit Release\PhysiologyWorkbench.Data.pdb
+bin\x64\Debug\PhysiologyWorkbench.Data.dll
+bin\x64\Debug\PhysiologyWorkbench.Data.pdb
+bin\x64\Debug\RRLab.Utilities.dll
+bin\x64\Debug\ZedGraph.dll
+bin\x64\Debug\ZedGraph.pdb
+bin\x64\Debug\ZedGraph.xml
+bin\x64\Debug\RRLab.Utilities.pdb
+bin\x64\Debug\de\ZedGraph.resources.dll
+bin\x64\Debug\es\ZedGraph.resources.dll
+bin\x64\Debug\fr\ZedGraph.resources.dll
+bin\x64\Debug\it\ZedGraph.resources.dll
+bin\x64\Debug\ja\ZedGraph.resources.dll
+bin\x64\Debug\pt\ZedGraph.resources.dll
+bin\x64\Debug\sv\ZedGraph.resources.dll
+obj\x64\Debug\ResolveAssemblyReference.cache
+obj\x64\Debug\RRLab.PhysiologyWorkbench.Data.Properties.Resources.resources
+obj\x64\Debug\PhysiologyWorkbench.Data.csproj.GenerateResource.Cache
+obj\x64\Debug\PhysiologyWorkbench.Data.dll.licenses
+obj\x64\Debug\PhysiologyWorkbench.Data.dll
+obj\x64\Debug\PhysiologyWorkbench.Data.pdb
+bin\Release\PhysiologyWorkbench.Data.dll
+bin\Release\PhysiologyWorkbench.Data.pdb
+bin\Release\RRLab.Utilities.dll
+bin\Release\ZedGraph.dll
+bin\Release\ZedGraph.pdb
+bin\Release\ZedGraph.xml
+bin\Release\RRLab.Utilities.pdb
+bin\Release\de\ZedGraph.resources.dll
+bin\Release\es\ZedGraph.resources.dll
+bin\Release\fr\ZedGraph.resources.dll
+bin\Release\it\ZedGraph.resources.dll
+bin\Release\ja\ZedGraph.resources.dll
+bin\Release\pt\ZedGraph.resources.dll
+bin\Release\sv\ZedGraph.resources.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\RRLab.PhysiologyWorkbench.Data.Properties.Resources.resources
+obj\Release\PhysiologyWorkbench.Data.csproj.GenerateResource.Cache
+obj\Release\PhysiologyWorkbench.Data.dll.licenses
+obj\Release\PhysiologyWorkbench.Data.dll
+obj\Release\PhysiologyWorkbench.Data.pdb

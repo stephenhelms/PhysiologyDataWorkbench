@@ -1,0 +1,88 @@
+bin\Debug\PhysiologyDataConnectivity.dll
+bin\Debug\PhysiologyDataConnectivity.pdb
+bin\Debug\PhysiologyWorkbench.Data.dll
+bin\Debug\RRLab.Utilities.dll
+bin\Debug\ZedGraph.dll
+bin\Debug\RRLab.Utilities.pdb
+bin\Debug\PhysiologyWorkbench.Data.pdb
+bin\Debug\ZedGraph.pdb
+bin\Debug\ZedGraph.xml
+bin\Debug\de\ZedGraph.resources.dll
+bin\Debug\es\ZedGraph.resources.dll
+bin\Debug\fr\ZedGraph.resources.dll
+bin\Debug\it\ZedGraph.resources.dll
+bin\Debug\ja\ZedGraph.resources.dll
+bin\Debug\pt\ZedGraph.resources.dll
+bin\Debug\sv\ZedGraph.resources.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RRLab.PhysiologyDataConnectivity.LogInDialog.resources
+obj\Debug\PhysiologyDataConnectivity.csproj.GenerateResource.Cache
+obj\Debug\PhysiologyDataConnectivity.dll
+obj\Debug\PhysiologyDataConnectivity.pdb
+bin\Debug\MySql.Data.dll
+bin\x64\Core 2 Duo Release\PhysiologyDataConnectivity.dll
+bin\x64\Core 2 Duo Release\PhysiologyDataConnectivity.pdb
+bin\x64\Core 2 Duo Release\MySql.Data.dll
+bin\x64\Core 2 Duo Release\PhysiologyWorkbench.Data.dll
+bin\x64\Core 2 Duo Release\RRLab.Utilities.dll
+bin\x64\Core 2 Duo Release\ZedGraph.dll
+bin\x64\Core 2 Duo Release\RRLab.Utilities.pdb
+bin\x64\Core 2 Duo Release\PhysiologyWorkbench.Data.pdb
+bin\x64\Core 2 Duo Release\ZedGraph.pdb
+bin\x64\Core 2 Duo Release\ZedGraph.xml
+bin\x64\Core 2 Duo Release\de\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\es\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\fr\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\it\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\ja\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\pt\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\sv\ZedGraph.resources.dll
+obj\x64\64-bit Release\ResolveAssemblyReference.cache
+obj\x64\64-bit Release\RRLab.PhysiologyDataConnectivity.LogInDialog.resources
+obj\x64\64-bit Release\PhysiologyDataConnectivity.csproj.GenerateResource.Cache
+obj\x64\64-bit Release\PhysiologyDataConnectivity.dll
+obj\x64\64-bit Release\PhysiologyDataConnectivity.pdb
+bin\x64\Debug\PhysiologyDataConnectivity.dll
+bin\x64\Debug\PhysiologyDataConnectivity.pdb
+bin\x64\Debug\MySql.Data.dll
+bin\x64\Debug\PhysiologyWorkbench.Data.dll
+bin\x64\Debug\RRLab.Utilities.dll
+bin\x64\Debug\ZedGraph.dll
+bin\x64\Debug\RRLab.Utilities.pdb
+bin\x64\Debug\PhysiologyWorkbench.Data.pdb
+bin\x64\Debug\ZedGraph.pdb
+bin\x64\Debug\ZedGraph.xml
+bin\x64\Debug\de\ZedGraph.resources.dll
+bin\x64\Debug\es\ZedGraph.resources.dll
+bin\x64\Debug\fr\ZedGraph.resources.dll
+bin\x64\Debug\it\ZedGraph.resources.dll
+bin\x64\Debug\ja\ZedGraph.resources.dll
+bin\x64\Debug\pt\ZedGraph.resources.dll
+bin\x64\Debug\sv\ZedGraph.resources.dll
+obj\x64\Debug\ResolveAssemblyReference.cache
+obj\x64\Debug\RRLab.PhysiologyDataConnectivity.LogInDialog.resources
+obj\x64\Debug\PhysiologyDataConnectivity.csproj.GenerateResource.Cache
+obj\x64\Debug\PhysiologyDataConnectivity.dll
+obj\x64\Debug\PhysiologyDataConnectivity.pdb
+bin\Release\PhysiologyDataConnectivity.dll
+bin\Release\PhysiologyDataConnectivity.pdb
+bin\Release\MySql.Data.dll
+bin\Release\PhysiologyWorkbench.Data.dll
+bin\Release\RRLab.Utilities.dll
+bin\Release\ZedGraph.dll
+bin\Release\RRLab.Utilities.pdb
+bin\Release\PhysiologyWorkbench.Data.pdb
+bin\Release\ZedGraph.pdb
+bin\Release\ZedGraph.xml
+bin\Release\de\ZedGraph.resources.dll
+bin\Release\es\ZedGraph.resources.dll
+bin\Release\fr\ZedGraph.resources.dll
+bin\Release\it\ZedGraph.resources.dll
+bin\Release\ja\ZedGraph.resources.dll
+bin\Release\pt\ZedGraph.resources.dll
+bin\Release\sv\ZedGraph.resources.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\RRLab.PhysiologyDataConnectivity.LogInDialog.resources
+obj\Release\PhysiologyDataConnectivity.csproj.GenerateResource.Cache
+obj\Release\PhysiologyDataConnectivity.dll
+obj\Release\PhysiologyDataConnectivity.pdb

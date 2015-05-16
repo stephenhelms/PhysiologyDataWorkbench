@@ -1,0 +1,84 @@
+bin\Debug\RRLab.Utilities.dll
+bin\Debug\RRLab.Utilities.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RRLab.Utilities.ProgressDialog.resources
+obj\Debug\Utilities.csproj.GenerateResource.Cache
+obj\Debug\RRLab.Utilities.dll
+obj\Debug\RRLab.Utilities.pdb
+bin\Debug\ZedGraph.pdb
+bin\Debug\ZedGraph.xml
+bin\Debug\de\ZedGraph.resources.dll
+bin\Debug\es\ZedGraph.resources.dll
+bin\Debug\fr\ZedGraph.resources.dll
+bin\Debug\it\ZedGraph.resources.dll
+bin\Debug\ja\ZedGraph.resources.dll
+bin\Debug\pt\ZedGraph.resources.dll
+bin\Debug\sv\ZedGraph.resources.dll
+obj\Debug\RRLab.Utilities.DataSetDateGraph.resources
+obj\Debug\RRLab.Utilities.DataSetHistogramControl.resources
+obj\Debug\RRLab.Utilities.DataSetScatterPlotControl.resources
+bin\Debug\ZedGraph.dll
+obj\Debug\RRLab.Utilities.DataSetGroupedScatterPlotControl.resources
+bin\x64\Core 2 Duo Release\RRLab.Utilities.dll
+bin\x64\Core 2 Duo Release\RRLab.Utilities.pdb
+bin\x64\Core 2 Duo Release\ZedGraph.dll
+bin\x64\Core 2 Duo Release\ZedGraph.pdb
+bin\x64\Core 2 Duo Release\ZedGraph.xml
+bin\x64\Core 2 Duo Release\de\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\es\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\fr\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\it\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\ja\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\pt\ZedGraph.resources.dll
+bin\x64\Core 2 Duo Release\sv\ZedGraph.resources.dll
+obj\x64\64-bit Release\ResolveAssemblyReference.cache
+obj\x64\64-bit Release\RRLab.Utilities.DataSetDateGraph.resources
+obj\x64\64-bit Release\RRLab.Utilities.DataSetGroupedScatterPlotControl.resources
+obj\x64\64-bit Release\RRLab.Utilities.DataSetHistogramControl.resources
+obj\x64\64-bit Release\RRLab.Utilities.DataSetScatterPlotControl.resources
+obj\x64\64-bit Release\RRLab.Utilities.ProgressDialog.resources
+obj\x64\64-bit Release\Utilities.csproj.GenerateResource.Cache
+obj\x64\64-bit Release\RRLab.Utilities.dll
+obj\x64\64-bit Release\RRLab.Utilities.pdb
+bin\x64\Debug\RRLab.Utilities.dll
+bin\x64\Debug\RRLab.Utilities.pdb
+bin\x64\Debug\ZedGraph.dll
+bin\x64\Debug\ZedGraph.pdb
+bin\x64\Debug\ZedGraph.xml
+bin\x64\Debug\de\ZedGraph.resources.dll
+bin\x64\Debug\es\ZedGraph.resources.dll
+bin\x64\Debug\fr\ZedGraph.resources.dll
+bin\x64\Debug\it\ZedGraph.resources.dll
+bin\x64\Debug\ja\ZedGraph.resources.dll
+bin\x64\Debug\pt\ZedGraph.resources.dll
+bin\x64\Debug\sv\ZedGraph.resources.dll
+obj\x64\Debug\ResolveAssemblyReference.cache
+obj\x64\Debug\RRLab.Utilities.DataSetDateGraph.resources
+obj\x64\Debug\RRLab.Utilities.DataSetGroupedScatterPlotControl.resources
+obj\x64\Debug\RRLab.Utilities.DataSetHistogramControl.resources
+obj\x64\Debug\RRLab.Utilities.DataSetScatterPlotControl.resources
+obj\x64\Debug\RRLab.Utilities.ProgressDialog.resources
+obj\x64\Debug\Utilities.csproj.GenerateResource.Cache
+obj\x64\Debug\RRLab.Utilities.dll
+obj\x64\Debug\RRLab.Utilities.pdb
+bin\Release\RRLab.Utilities.dll
+bin\Release\RRLab.Utilities.pdb
+bin\Release\ZedGraph.dll
+bin\Release\ZedGraph.pdb
+bin\Release\ZedGraph.xml
+bin\Release\de\ZedGraph.resources.dll
+bin\Release\es\ZedGraph.resources.dll
+bin\Release\fr\ZedGraph.resources.dll
+bin\Release\it\ZedGraph.resources.dll
+bin\Release\ja\ZedGraph.resources.dll
+bin\Release\pt\ZedGraph.resources.dll
+bin\Release\sv\ZedGraph.resources.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\RRLab.Utilities.DataSetDateGraph.resources
+obj\Release\RRLab.Utilities.DataSetGroupedScatterPlotControl.resources
+obj\Release\RRLab.Utilities.DataSetHistogramControl.resources
+obj\Release\RRLab.Utilities.DataSetScatterPlotControl.resources
+obj\Release\RRLab.Utilities.ProgressDialog.resources
+obj\Release\Utilities.csproj.GenerateResource.Cache
+obj\Release\RRLab.Utilities.dll
+obj\Release\RRLab.Utilities.pdb

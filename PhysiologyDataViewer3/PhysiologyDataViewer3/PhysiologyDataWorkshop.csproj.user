@@ -1,0 +1,16 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>Y:\Stephen\PhysiologyDataWorkshop\|\\129.112.108.69\public\Stephen\PhysiologyDataWorkshop\</PublishUrlHistory>
+    <InstallUrlHistory>\\129.112.108.69\public\Stephen\PhysiologyDataWorkshop\</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ReferencePath>
+    </ReferencePath>
+  </PropertyGroup>
+</Project>

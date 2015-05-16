@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="PhysiologyWorkbench.exe" version="3.0.0.19" publicKeyToken="090146e5fa466d6e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PhysiologyWorkbench" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PhysiologyWorkbench.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MySql.Data" version="5.0.2.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NationalInstruments.Common.dll" size="152512">
+      <assemblyIdentity name="NationalInstruments.Common" version="8.0.20.278" publicKeyToken="4544464CDEAAB541" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>kwlPn67enB8+LRiKmpH4GEdTyqs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NationalInstruments.DAQmx.dll" size="1524160">
+      <assemblyIdentity name="NationalInstruments.DAQmx" version="8.3.20.13" publicKeyToken="4544464CDEAAB541" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Gns4XwvH5AxxjcxuaRelWL2w7JY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NationalInstruments.UI.dll" size="823816">
+      <assemblyIdentity name="NationalInstruments.UI" version="7.1.0.306" publicKeyToken="4544464CDEAAB541" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ks8ECuTvC0tzdPKws/2sOLPSV7U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NationalInstruments.UI.WindowsForms.dll" size="184840">
+      <assemblyIdentity name="NationalInstruments.UI.WindowsForms" version="7.1.0.306" publicKeyToken="4544464CDEAAB541" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jZ6f4qWxXAONU4fXpipwJIz1MHs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhysiologyData.GUI.dll" size="69632">
+      <assemblyIdentity name="PhysiologyData.GUI" version="1.0.2589.32997" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>XPipyNwRh3wEo3wGdiSGIYu6Lyc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhysiologyDataConnectivity.dll" size="69632">
+      <assemblyIdentity name="PhysiologyDataConnectivity" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TIR+5tJuDQyUHJr5Qn/mJLg8VY4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhysiologyWorkbench.exe" size="397312">
+      <assemblyIdentity name="PhysiologyWorkbench" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Wk13KEUvvuQZjiXsM8jv1XtC45M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhysiologyWorkbench.Data.dll" size="114688">
+      <assemblyIdentity name="PhysiologyWorkbench.Data" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>51id19UZPL4sUexLYxoo80EGvSE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RRLab.Utilities.dll" size="61440">
+      <assemblyIdentity name="RRLab.Utilities" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>KaH5nVATwjmtyMjwmUMBOhmGHak=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZedGraph.dll" size="274432">
+      <assemblyIdentity name="ZedGraph" version="5.0.2.29736" publicKeyToken="02A83CBD123FCD60" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>yYGchjD7g4KEtllbUqssQO+ZNsw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DeviceManagerPersistence.dat" size="4518">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>chIRtU08vJDj7OUFU7RVr2fOkAA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HotkeyManagerPersistence.dat" size="1826">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ytx2EMrwrXeLezYAXDTt++p75uU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PhysiologyWorkbench.exe.config" size="5825">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Mf8aAl1ZkZWy63FspM3WPVwiWcQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AUGUSTINE\Stephen" issuerKeyHash="d3e0898932f0b4b578694c1fe07c586297c5c3dd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GKxFIwMc2LyEQ4oWFtTaLr57NnM=</DigestValue></Reference></SignedInfo><SignatureValue>WPk8Nx6THK4gEJnPIRKLz9H6+SPSCITlGLGplfXBJluPZcuThX6Bjkg2u8Q4vPwM9NV1cedGUdauQKw505ViWUBkLOr1UTFR/Y9/5/RFbtApATj3nHGdVTQ4AQFZzSmY8eQuT9NpBO9fpJ97no9LVX2AhFMTwovA6O+Vveia+CI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vO2gq3N3WzDO9VDJcrofv6fTaih89EYRFeqXWnRgWQci/8TxoKLdF+3hKK434QMAUDVWHbPGuLrWEtZdUmE4nkLU8yJXhGz2aHKXyJ8Ymi2tgQ9uWnOL6t8bke20oXL2xgs6xJQuRO30t6I665YzV+ekpHeZI+Aq4w5osNmFj48=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="73367bbe2edad416168a4384bcd81c032345ac18" Description="" Url=""><as:assemblyIdentity name="PhysiologyWorkbench.exe" version="3.0.0.19" publicKeyToken="090146e5fa466d6e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AUGUSTINE\Stephen</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>4WdDu8chAtI0Hue10H+5MA75ES4=</DigestValue></Reference></SignedInfo><SignatureValue>E4H7nCB1vWDELgA/JIcjPWvjCSj2DXXCAqTddtm+uT+9PN36+IJhKDOeSYo4Ltmdw/ysiHC2tKIbg/TvaBgcWmvGGm6fPfYuFwGxVnkIKMnonv4oxlmWVrBohu0Axon92oq1pkpAy+OSWz0WSK/jfHkM5UOfl8l2qfxVnZfF0VI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vO2gq3N3WzDO9VDJcrofv6fTaih89EYRFeqXWnRgWQci/8TxoKLdF+3hKK434QMAUDVWHbPGuLrWEtZdUmE4nkLU8yJXhGz2aHKXyJ8Ymi2tgQ9uWnOL6t8bke20oXL2xgs6xJQuRO30t6I665YzV+ekpHeZI+Aq4w5osNmFj48=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQ/dIoXbW0/YdHBsyeARfknzANBgkqhkiG9w0BAQUFADAtMSswKQYDVQQDHiIAQQBVAEcAVQBTAFQASQBOAEUAXABTAHQAZQBwAGgAZQBuMB4XDTA3MDIxNDE1MjQ0N1oXDTA4MDIxNDIxMjQ0N1owLTErMCkGA1UEAx4iAEEAVQBHAFUAUwBUAEkATgBFAFwAUwB0AGUAcABoAGUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvO2gq3N3WzDO9VDJcrofv6fTaih89EYRFeqXWnRgWQci/8TxoKLdF+3hKK434QMAUDVWHbPGuLrWEtZdUmE4nkLU8yJXhGz2aHKXyJ8Ymi2tgQ9uWnOL6t8bke20oXL2xgs6xJQuRO30t6I665YzV+ekpHeZI+Aq4w5osNmFj48CAwEAATANBgkqhkiG9w0BAQUFAAOBgQBuIkOj6edfjjOD7NHsfbJRPFj08g8dQ9jdCzygkFuYfQNJGTeS4rMqFjUu8klpX1V6hdwPqPPGOv70Y8Oty+X3yx4AOqdZTpFHLWgoCMkUIi9q4Ddjr99Ji2bk3vxpWysd3ax4H85+a0lTpyLWGmzYhRTTAZDCsLat8H42K19sDQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
